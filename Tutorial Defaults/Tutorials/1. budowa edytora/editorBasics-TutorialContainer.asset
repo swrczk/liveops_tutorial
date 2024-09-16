@@ -28,10 +28,55 @@ MonoBehaviour:
   Sections:
   - OrderInView: 0
     Heading:
-      m_Untranslated: Interface Unity
+      m_Untranslated: Hierarchia
     Text:
       m_Untranslated: "okienka, ich uk\u0142ad i takie tam"
     Metadata: 
     Url: 
-    Image: {fileID: 0}
+    Image: {fileID: 2800000, guid: 4c3e9d35c9aab0644b26f68f9dbdf26f, type: 3}
     Tutorial: {fileID: 11400000, guid: 1600d5a279ef8474faaced9f9f678c51, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Project Browser
+    Text:
+      m_Untranslated: "okienka, ich uk\u0142ad i takie tam"
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 6638ebd57c198574db73bcd0f3bf0530, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5bfcd653d13a4bf43ad26ac25e40616d, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Scena
+    Text:
+      m_Untranslated: "okienka, ich uk\u0142ad i takie tam"
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 48ab5ee9a2493834eb33b8caee835b81, type: 3}
+    Tutorial: {fileID: 11400000, guid: ed537882853245e4696255919ba149b4, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Inspektor
+    Text:
+      m_Untranslated: "okienka, ich uk\u0142ad i takie tam"
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 56284807d1371aa4eb927bb118f0f13a, type: 3}
+    Tutorial: {fileID: 11400000, guid: e722f9be5f6937540b4d1361d9edbe54, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Konsola
+    Text:
+      m_Untranslated: "okienka, ich uk\u0142ad i takie tam"
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 3f77bc0e853a5654c8a870d1cb6dcbb3, type: 3}
+    Tutorial: {fileID: 11400000, guid: e357bf12bc7d2f14dade91ff0077e87c, type: 2}
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: Layouts
+    Text:
+      m_Untranslated: "okienka, ich uk\u0142ad i takie tam"
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 3921a62f820886040b3ac9c716c95739, type: 3}
+    Tutorial: {fileID: 11400000, guid: 73e999a3fadaec1428197a279ac16221, type: 2}

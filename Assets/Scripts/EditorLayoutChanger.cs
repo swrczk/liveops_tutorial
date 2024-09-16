@@ -1,3 +1,4 @@
+using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
@@ -56,5 +57,36 @@ public class EditorLayoutChanger : MonoBehaviour
         }
 
         Debug.LogError($"Object with name {name} not found in hierarchy.");
+    }
+    public static void ClearHierarchySearchField()
+    {
+        // Pobierz okno Hierarchii za pomocą refleksji
+        var hierarchyWindowType = typeof(EditorWindow).Assembly.GetType("UnityEditor.SceneHierarchyWindow");
+        if (hierarchyWindowType != null)
+        {
+            // Znajdź otwarte okno hierarchii
+            var hierarchyWindow = EditorWindow.GetWindow(hierarchyWindowType);
+            if (hierarchyWindow != null)
+            {
+                // Użyj refleksji, aby uzyskać dostęp do pola wyszukiwania i wyczyścić je
+                var searchableWindow = typeof(SearchableEditorWindow);
+                var setSearchMethod = searchableWindow.GetMethod("SetSearch", BindingFlags.Instance | BindingFlags.NonPublic);
+                
+                if (setSearchMethod != null)
+                {
+                    // Ustaw pustą wartość wyszukiwania
+                    setSearchMethod.Invoke(hierarchyWindow, new object[] { "" });
+                    Debug.Log("Hierarchy search field cleared.");
+                }
+                else
+                {
+                    Debug.LogError("Unable to find SetSearch method.");
+                }
+            }
+        }
+        else
+        {
+            Debug.LogError("Unable to find SceneHierarchyWindow type.");
+        }
     }
 }

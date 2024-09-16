@@ -80,8 +80,32 @@ MonoBehaviour:
             m_GUIStyleName: 
             m_ObjectReference:
               m_SceneObjectReference:
-                m_SceneGuid: 89c754aaa058f9c47b63aa464a563f63
-                m_GameObjectGuid: db4519aa-6ae2-44bb-9afa-5b226529009d
+                m_SceneGuid: 517f4ea219473ac4181a1271d7a43ba1
+                m_GameObjectGuid: 00538cf0-5fb6-4c55-a1dc-523d4e836085
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
+            m_VisualElementClassName: 
+            m_VisualElementName: 
+            m_VisualElementTypeName: 
+          - m_SelectorMode: 4
+            m_SelectorMatchType: 0
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 517f4ea219473ac4181a1271d7a43ba1
+                m_GameObjectGuid: 0d93bdb3-cb6e-41df-b647-011bf2ffa78d
                 m_SerializedComponentType:
                   m_TypeName: 
                 m_ComponentIndex: 0
@@ -198,7 +222,22 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
+        m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
+        m_MethodName: FocusOnHierarchyObject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Canvas
+          m_BoolArgument: 0
+        m_CallState: 1
       - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
         m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
         m_MethodName: FocusOnPrefabAsset
@@ -208,12 +247,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Assets/TestPrefab/TestPrefab.prefab
+          m_StringArgument: Assets/Prefabs/TestPrefab.prefab
           m_BoolArgument: 0
         m_CallState: 1
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
   Staying:
     m_PersistentCalls:
       m_Calls: []
