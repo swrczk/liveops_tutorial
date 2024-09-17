@@ -1,38 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2599681401858252082
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e52eaa6fdf2a4794ba81c7bc450905e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_PropertyPath: 
-  m_TargetValueMode: 0
-  m_TargetValue: 
-  m_TargetValueType: 0
-  m_Target:
-    m_SceneObjectReference:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 1.1.3-naprawa interfacu
+  m_Name: layout
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Gdzie znale\u017A\u0107 layouty?"
+    m_Untranslated: Layout
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -61,15 +28,14 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
             m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: UnityEditor.AboutWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
+            m_TypeName: 
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
@@ -81,7 +47,7 @@ MonoBehaviour:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
-            m_ControlName: 
+            m_ControlName: Layout
             m_PropertyPath: 
             m_TargetType:
               m_TypeName: 
@@ -108,36 +74,16 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Widget znajduje si\u0119 w g\xF3rnym prawym rogu edytora."
+        m_Untranslated: "Przy edycji widoku layoutu nie trzeba si\u0119 martwi\u0107
+          o zepsucie go lub strate ulubionego uk\u0142adu okna.\nInterface zawsze
+          mo\u017Cna zresetowac do jednego z podstawowych uk\u0142ad\xF3w, lub stworzy\u0107
+          w\u0142asny!"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-    - m_Type: 1
-      Title:
-        m_Untranslated: "Zmie\u0144 layout"
-      Text:
-        m_Untranslated: Tabs > Window > Animation > Animation
-      m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.PropertyModificationCriterion,
-              Unity.Tutorials.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -2599681401858252082}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

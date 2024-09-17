@@ -222,19 +222,10 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
+      m_Calls: []
+  Shown:
+    m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
-        m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
-        m_MethodName: FocusOnPrefabAsset
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Assets/Prefabs/TestPrefab.prefab
-          m_BoolArgument: 0
-        m_CallState: 1
       - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
         m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
         m_MethodName: FocusOnHierarchyObject
@@ -247,9 +238,18 @@ MonoBehaviour:
           m_StringArgument: Canvas
           m_BoolArgument: 0
         m_CallState: 1
-  Shown:
-    m_PersistentCalls:
-      m_Calls: []
+      - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
+        m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
+        m_MethodName: FocusOnPrefabAsset
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Assets/Prefabs/TestPrefab.prefab
+          m_BoolArgument: 0
+        m_CallState: 1
   Staying:
     m_PersistentCalls:
       m_Calls: []

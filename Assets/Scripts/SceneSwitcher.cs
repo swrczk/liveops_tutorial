@@ -1,5 +1,4 @@
-
-
+#if UNITY_EDITOR
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
@@ -12,3 +11,4 @@ public class SceneSwitcher : MonoBehaviour
         // Assets/Scenes/StartScene.unity
     }
 }
+#endif

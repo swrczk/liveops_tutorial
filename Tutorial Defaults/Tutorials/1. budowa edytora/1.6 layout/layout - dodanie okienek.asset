@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 1.1.2 - zepsucie layoutu
+  m_Name: layout - dodanie okienek
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Symulacja zepsucia layoutu
+    m_Untranslated: Gotowe layouty
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,8 +35,7 @@ MonoBehaviour:
             m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: UnityEditor.AboutWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
+            m_TypeName: 
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
@@ -48,7 +47,7 @@ MonoBehaviour:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
-            m_ControlName: 
+            m_ControlName: Layout
             m_PropertyPath: 
             m_TargetType:
               m_TypeName: 
@@ -75,41 +74,16 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Kto\u015B wzi\u0105\u0142, poklika\u0142 nie wiadomo gdzie,
-          nie wiadomo jak, zostawi\u0142 na komputerze i elo. Zasymulujmy tak\u0105
-          sytuacje\n"
+        m_Untranslated: "Przy edycji widoku layoutu nie trzeba si\u0119 martwi\u0107
+          o zepsucie go lub strate ulubionego uk\u0142adu okna.\nInterface zawsze
+          mo\u017Cna zresetowac do jednego z podstawowych uk\u0142ad\xF3w, lub stworzy\u0107
+          w\u0142asny!"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-    - m_Type: 1
-      Title:
-        m_Untranslated: "Rozwal Unity 1 klikni\u0119ciem"
-      Text:
-        m_Untranslated: "Znajd\u017A EditorLayoutChanger"
-      m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.PropertyModificationCriterion,
-              Unity.Tutorials.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 885505229137783880}
-        - Type:
-            m_TypeName: 
-          Criterion: {fileID: 0}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -172,36 +146,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &885505229137783880
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e52eaa6fdf2a4794ba81c7bc450905e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 1
-  m_PropertyPath: currentLayout
-  m_TargetValueMode: 0
-  m_TargetValue: brokenLayout
-  m_TargetValueType: 2
-  m_Target:
-    m_SceneObjectReference:
-      m_SceneGuid: 89c754aaa058f9c47b63aa464a563f63
-      m_GameObjectGuid: 2ecae63c-f973-4126-87f8-6f64a2b56eaa
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 0}
