@@ -8,14 +8,14 @@ namespace Editor
 {
     public class FileInProjectCriterion : Criterion
     {
-        [SerializeField] private string filePath;
+        [SerializeField]
+        private string filePath;
 
         private void OnEnable()
         {
             EditorApplication.projectChanged += OnProjectChanged;
         }
-
-        // Sprawdzenie, czy kryterium jest spełnione
+        
         protected override bool EvaluateCompletion()
         {
             Debug.Log("EvaluateCompletion called for FileInProjectCriterion");
@@ -32,7 +32,7 @@ namespace Editor
         {
             return false;
         }
-        
+
         private bool IsFileInProject(string relativePath)
         {
             var isFileInProject = AssetDatabase.LoadAssetAtPath<Object>(relativePath) != null;

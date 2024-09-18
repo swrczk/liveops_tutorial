@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2599681401858252082
+--- !u!114 &-7415261262283468110
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e52eaa6fdf2a4794ba81c7bc450905e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c8df444ec1542baacfa5e0dc685b6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -18,21 +18,8 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 0
-  m_PropertyPath: 
-  m_TargetValueMode: 0
-  m_TargetValue: 
-  m_TargetValueType: 0
-  m_Target:
-    m_SceneObjectReference:
-      m_SceneGuid: 
-      m_GameObjectGuid: 
-      m_SerializedComponentType:
-        m_TypeName: 
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 0}
+  isTesting: 1
+  layoutFileName: Assets/Layouts/tutorialLayoutTest.wlt
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +112,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "Zmie\u0144 layout"
+        m_Untranslated: "Zmie\u0144 layout na tutorialLayoutTest"
       Text:
         m_Untranslated: Tabs > Window > Animation > Animation
       m_Tutorial: {fileID: 0}
@@ -135,9 +122,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.PropertyModificationCriterion,
-              Unity.Tutorials.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -2599681401858252082}
+            m_TypeName: Editor.LayoutCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: -7415261262283468110}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -170,10 +157,47 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2528722254102604216, guid: 37d258b99772bb044a213e9c3baac2b5, type: 3}
+        m_TargetAssemblyTypeName: Editor.SceneSwitcher, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: StartScene
+          m_BoolArgument: 0
+        m_CallState: 1
   Shown:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8344798935283973408, guid: f1f7fef7a3553784880e2ca155ba2658, type: 3}
+        m_TargetAssemblyTypeName: TutorialStateManager, Assembly-CSharp
+        m_MethodName: SetTutorial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 73e999a3fadaec1428197a279ac16221, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Unity.Tutorials.Core.Editor.Tutorial,
+            Unity.Tutorials.Core.Editor
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 8344798935283973408, guid: f1f7fef7a3553784880e2ca155ba2658, type: 3}
+        m_TargetAssemblyTypeName: TutorialStateManager, Assembly-CSharp
+        m_MethodName: SaveTutorialState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   Staying:
     m_PersistentCalls:
       m_Calls: []

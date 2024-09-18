@@ -24,5 +24,5 @@ MonoBehaviour:
     m_Untranslated: "Zestaw wskaz\xF3wek jak efektywnie testowa\u0107 rzeczy na \u017Cywo"
   Description:
     m_Untranslated: 
-  ProjectLayout: {fileID: 0}
+  ProjectLayout: {fileID: 102900000, guid: 1ede730607ef3d144a36e6b7c32fa880, type: 3}
   Sections: []
