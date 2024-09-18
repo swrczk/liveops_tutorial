@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: hierarchia 2 - frame object test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: 'Hierarchia '
+    m_Untranslated: Focus na elemencie
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -61,7 +61,11 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Znajd\u017A na scenie SceneSwitcher i kliknij na niego"
+        m_Untranslated: "Aby operowa\u0107 na konkretnym elemencie w hierarchi nale\u017Cy
+          go wybrac na li\u015Bcie. Mo\u017Cna tak\u017Ce dwukrotnym klikni\u0119ciem
+          ustawi\u0107 scene tak, aby by\u0142 w centrum pola widzenia. jest to szczeg\xF3lnie
+          wygodne przy poszukiwaniu gdzie pojawi\u0142 si\u0119 nasz prefab po przerzuceniu
+          na scene"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -78,9 +82,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: Instruction title
+        m_Untranslated: Wybierz element z hierarchi
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: "- Znajd\u017A w hierarchi <b>SceneSwitcher</b> \n- kliknij
+          na niego 2 razy"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -171,7 +176,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 1
+  isTesting: 0
   m_ObjectReferences:
     m_Items:
     - m_SceneObjectReference:
