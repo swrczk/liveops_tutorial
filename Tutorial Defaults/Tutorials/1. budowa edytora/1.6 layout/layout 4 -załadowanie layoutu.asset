@@ -19,7 +19,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   isTesting: 1
-  layoutFileName: Assets/Layouts/tutorialLayout.wlt
+  layoutFileName: Assets/Layouts/tutorialLayoutTest.wlt
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "Zmie\u0144 layout"
+        m_Untranslated: "Zmie\u0144 layout na tutorialLayoutTest"
       Text:
         m_Untranslated: Tabs > Window > Animation > Animation
       m_Tutorial: {fileID: 0}
@@ -157,10 +157,47 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2528722254102604216, guid: 37d258b99772bb044a213e9c3baac2b5, type: 3}
+        m_TargetAssemblyTypeName: Editor.SceneSwitcher, Assembly-CSharp
+        m_MethodName: LoadSceneByName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: StartScene
+          m_BoolArgument: 0
+        m_CallState: 1
   Shown:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8344798935283973408, guid: f1f7fef7a3553784880e2ca155ba2658, type: 3}
+        m_TargetAssemblyTypeName: TutorialStateManager, Assembly-CSharp
+        m_MethodName: SetTutorial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 73e999a3fadaec1428197a279ac16221, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Unity.Tutorials.Core.Editor.Tutorial,
+            Unity.Tutorials.Core.Editor
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 8344798935283973408, guid: f1f7fef7a3553784880e2ca155ba2658, type: 3}
+        m_TargetAssemblyTypeName: TutorialStateManager, Assembly-CSharp
+        m_MethodName: SaveTutorialState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   Staying:
     m_PersistentCalls:
       m_Calls: []

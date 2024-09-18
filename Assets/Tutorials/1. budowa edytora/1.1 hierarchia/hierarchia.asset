@@ -50,7 +50,17 @@ MonoBehaviour:
       Title:
         m_Untranslated: Page title
       Text:
-        m_Untranslated: intro
+        m_Untranslated: "\t<b>Wy\u015Bwietla wszystkie obiekty znajduj\u0105ce si\u0119
+          na scenie.</b> To tuttaj zlokalizujesz, dodasz, usuniesz, czy podejrzysz
+          ka\u017Cdy element w grze. Obiekty zorganizowane s\u0105 w strukture drzewa
+          (rodzic - dziecko), kt\xF3rego g\u0142\xF3wnym w\u0119z\u0142em jest scena.
+          \n\n\n<b>Obiekty w hierarchii mo\u017Cna w\u0142\u0105cza\u0107 i wy\u0142\u0105cza\u0107
+          na 3 sposoby:</b>\n\t- jako ca\u0142y obiekt, kt\xF3ry nie b\u0119dzie
+          ca\u0142kowicie widoczny w grze\n\t- ukry\u0107 jego widok na scene, ale
+          \u017Ceby by\u0142 widoczny w grze\n\t- wy\u0142aczy\u0107 mo\u017Cliwo\u015B\u0107
+          klikania na niego na scenie, ale b\u0119dzie widoczny na scenie i w grze\n\n<b>Najwa\u017Cniejsze
+          informacje:</b>\n\t- dzieci s\u0105 zale\u017Cne od rodzica, je\u015Bli
+          przesuwamy rodzic, to razem ze swoimi dzie\u0107mi"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
