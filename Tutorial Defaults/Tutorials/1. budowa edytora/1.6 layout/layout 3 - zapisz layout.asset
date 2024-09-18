@@ -28,7 +28,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
@@ -92,9 +92,9 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "Zmie\u0144 layout"
+        m_Untranslated: zapisz layout, nazwij go test.wlt
       Text:
-        m_Untranslated: Tabs > Window > Animation > Animation
+        m_Untranslated: ...
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -102,9 +102,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 2462020897066038223}
+            m_TypeName: Editor.FileInProjectCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 6646335057460739992}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -137,7 +137,19 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6155548454763338640, guid: 202ce78a3f0c0634b8a97c190d191597, type: 3}
+        m_TargetAssemblyTypeName: FilesEditor, Assembly-CSharp
+        m_MethodName: DeleteFileFromProject
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Assets/Layouts/test.wlt
+          m_BoolArgument: 0
+        m_CallState: 1
   Shown:
     m_PersistentCalls:
       m_Calls: []
@@ -167,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &2462020897066038223
+--- !u!114 &6646335057460739992
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,7 +188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
+  m_Script: {fileID: 11500000, guid: e3e4f5b66baf48ebabc0d722806c89c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -186,7 +198,4 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   isTesting: 0
-  m_EditorWindowType:
-    m_TypeName: UnityEditor.AnimationWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CloseIfAlreadyOpen: 1
+  filePath: Assets/Layouts/test.wlt

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: layout - menu
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Layout
+    m_Untranslated: "Layout - zarz\u0105dzanie"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -28,7 +28,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 0
+        m_MaskingEnabled: 1
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
@@ -65,6 +65,17 @@ MonoBehaviour:
             m_VisualElementClassName: unity-editor-toolbar-element
             m_VisualElementName: LayoutDropdown
             m_VisualElementTypeName: UnityEditor.Toolbars.LayoutDropdown
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
