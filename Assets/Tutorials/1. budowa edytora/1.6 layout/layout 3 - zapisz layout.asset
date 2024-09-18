@@ -102,9 +102,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: FileInProjectCriterion, Assembly-CSharp, Version=0.0.0.0,
+            m_TypeName: Editor.FileInProjectCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 7094409142329189211}
+          Criterion: {fileID: 6646335057460739992}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -179,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &7094409142329189211
+--- !u!114 &6646335057460739992
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -197,5 +197,5 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 0
-  filePath: Assets/Layouts/test.wlt
+  isTesting: 1
+  filePath: Assets/Layouts/
