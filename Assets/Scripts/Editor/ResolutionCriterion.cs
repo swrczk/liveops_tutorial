@@ -2,6 +2,7 @@
 using System;
 using Unity.Tutorials.Core.Editor;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 
 namespace Editor
 {

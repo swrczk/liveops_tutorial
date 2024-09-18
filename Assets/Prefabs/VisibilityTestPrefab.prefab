@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 6251279380303415216}
   - component: {fileID: 3878035013628326398}
   - component: {fileID: 4215065776352688328}
+  - component: {fileID: 3644750439221958431}
   m_Layer: 5
-  m_Name: TestPrefab
+  m_Name: VisibilityTestPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,3 +119,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3644750439221958431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853716555238977769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de96e88848447c5a76f0fd8af03fcaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
