@@ -44,7 +44,8 @@ MonoBehaviour:
           wed\u0142ug schematu rodzic-dziecko\n- elementy w hierarchi mo\u017Cna
           ukry\u0107\n- 2x klikniecie na element w hierarchi wy\u015Brodkowuje go
           na scenie\n- w hierarchi mo\u017Cna skorzysta\u0107 z wyszukiwarki, aby
-          u\u0142atwi\u0107 sobie prace"
+          u\u0142atwi\u0107 sobie prace\n\n\n<b>Pami\u0119taj, aby nie zapisywa\u0107
+          zmian na scenie!</b>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
