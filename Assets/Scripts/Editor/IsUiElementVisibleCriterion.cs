@@ -22,20 +22,23 @@ namespace Editor
 
         protected override bool EvaluateCompletion()
         {
-            var target = FindObjectOfType<UiElementVisibleCriterionTarget>();
+            var targets = FindObjectsOfType<UiElementVisibleCriterionTarget>();
 
-            if (target == null)
+            foreach (var target in targets)
             {
-                return false;
-            }
+                if (target.gameObject.name != prefabToCheck.name)
+                {
+                    continue;
+                }
 
-            Debug.Log("UiElementVisibleCriterionTarget found in the scene");
+                Debug.Log("UiElementVisibleCriterionTarget found in the scene");
 
-            var uiElement = target.GetComponent<RectTransform>();
-            var canvas = uiElement.GetComponentInParent<Canvas>();
-            if (canvas != null && canvas.renderMode == RenderMode.ScreenSpaceOverlay)
-            {
-                return uiElement.gameObject.activeInHierarchy;
+                var uiElement = target.GetComponent<RectTransform>();
+                var canvas = uiElement.GetComponentInParent<Canvas>();
+                if (canvas != null && canvas.renderMode == RenderMode.ScreenSpaceOverlay)
+                {
+                    return uiElement.gameObject.activeInHierarchy && uiElement.gameObject.activeSelf;
+                }
             }
 
             return false;

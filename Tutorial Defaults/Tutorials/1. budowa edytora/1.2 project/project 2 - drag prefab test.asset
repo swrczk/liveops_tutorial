@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1623716342354724612
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd3e7c665e4144f519b7ee9de726ea5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_PrefabParent: {fileID: 853716555238977769, guid: 4116eba8a02fea040a6211416015742d, type: 3}
-  m_FuturePrefabInstances:
-    m_Items:
-    - m_PrefabParent: {fileID: 853716555238977769, guid: 4116eba8a02fea040a6211416015742d, type: 3}
-      m_FutureReference: {fileID: 1510848846920814048}
-    - m_PrefabParent: {fileID: 3878035013628326398, guid: 4116eba8a02fea040a6211416015742d, type: 3}
-      m_FutureReference: {fileID: 8292108503461072618}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,11 +159,7 @@ MonoBehaviour:
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.InstantiatePrefabCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -1623716342354724612}
+        m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -276,33 +246,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &1510848846920814048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 1: TestPrefab (GameObject)'
-  m_EditorClassIdentifier: 
-  m_ReferenceHolder: {fileID: 0}
-  m_Criterion: {fileID: -1623716342354724612}
-  m_ReferenceName: '1: TestPrefab (GameObject)'
---- !u!114 &8292108503461072618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 2: TestPrefab (Image)'
-  m_EditorClassIdentifier: 
-  m_ReferenceHolder: {fileID: 0}
-  m_Criterion: {fileID: -1623716342354724612}
-  m_ReferenceName: '2: TestPrefab (Image)'

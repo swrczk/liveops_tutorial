@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: inspektor 3 - drag prefab test 1
+  m_Name: "inspektor 3 - w\u0142\u0105cz 2 inspektory"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Scena tools
+    m_Untranslated: Inspektor
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -28,7 +28,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -72,8 +72,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: ' '
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -90,7 +89,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "przenie\u015B TestPrefab do hierarchi - canvas"
+        m_Untranslated: "w\u0142\u0105cz 2 inspektory"
       Text:
         m_Untranslated: Put your tutorial instructions here
       m_Tutorial: {fileID: 0}
@@ -100,9 +99,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.ActiveToolCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 4271018434029035154}
+            m_TypeName: Editor.WindowCountCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 2739258878189542836}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -177,7 +176,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &4271018434029035154
+--- !u!114 &2739258878189542836
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,7 +185,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09cf94368c18acd4b87b173cdb62b502, type: 3}
+  m_Script: {fileID: 11500000, guid: 48039504f66d4388bb2847269f085491, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -195,5 +194,8 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 0
-  m_TargetTool: 5
+  isTesting: 1
+  windowTypeSelector:
+    windowTypeName: UnityEditor.InspectorWindow
+  windowCount: 2
+  isAnyLocked: 0

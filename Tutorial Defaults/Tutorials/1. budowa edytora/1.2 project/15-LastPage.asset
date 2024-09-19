@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 15-LastPage
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Page title
+    m_Untranslated: Podsumowanie
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -39,7 +39,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: Put your tutorial narrative description here
+        m_Untranslated: "- \n<b>Pami\u0119taj, aby nie zapisywa\u0107 zmian na scenie!</b>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -56,9 +56,9 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: Instruction title
+        m_Untranslated: 
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: 
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -77,7 +77,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Tutorial X: Make the best game!'
+        m_Untranslated: NEXT TUTORIAL
       m_Tutorial: {fileID: 11400000, guid: ed537882853245e4696255919ba149b4, type: 2}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

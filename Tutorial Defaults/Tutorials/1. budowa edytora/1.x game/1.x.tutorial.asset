@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
-  m_Name: 1.4.tutorial
+  m_Name: 1.x.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
     m_Untranslated: Interfejs
   m_ProgressTrackingEnabled: 1
-  m_LessonId: 38a5913d-0223-4a1d-abda-8cc23880a78e
+  m_LessonId: 879bcd47-f39d-43d3-9bb7-f92e08129b48
   m_Version: 1
   m_SceneManagementBehavior: 1
   m_Scenes: []
@@ -38,10 +38,10 @@ MonoBehaviour:
   m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
-    - {fileID: 11400000, guid: d0a4f55c32ab2364aaf060af34d01da9, type: 2}
-    - {fileID: 11400000, guid: 4e6bd1a06f71e03449d8e613a013eb31, type: 2}
-    - {fileID: 11400000, guid: d632be35795b19843984d5b405017e12, type: 2}
-    - {fileID: 11400000, guid: d525b964ef32f894da5ed3a89c821da6, type: 2}
+    - {fileID: 11400000, guid: 216206b65ae858a4c81d4ca437cf16cf, type: 2}
+    - {fileID: 11400000, guid: bd55d95528abbac4985dbec21c08c033, type: 2}
+    - {fileID: 11400000, guid: 6b6c472416833144dbddeab9404674c9, type: 2}
+    - {fileID: 11400000, guid: f2d830cdf56ede445b3b89af759f8ded, type: 2}
   CompletionDialog: {fileID: 0}
   Modified:
     m_PersistentCalls:
