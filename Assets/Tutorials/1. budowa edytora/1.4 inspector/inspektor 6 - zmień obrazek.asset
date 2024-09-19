@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5589488423474559806
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52fe644da35d4cedaff880a7e3409922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  prefabToCheck: {fileID: 853716555238977769, guid: 1ee9f17164b4afa42b2cf34a9b49f104, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: scena 2 - drag prefab test
+  m_Name: "inspektor 6 - zmie\u0144 obrazek"
   m_EditorClassIdentifier: 
   Title:
     m_Untranslated: Scena tools
@@ -48,7 +28,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 0
+        m_MaskingEnabled: 1
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
@@ -110,11 +90,9 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: Dodawanie do sceny
+        m_Untranslated: "przenie\u015B TestPrefab do hierarchi - canvas"
       Text:
-        m_Untranslated: "- przeci\u0105gnij VisibilityTestPrefab na scene \n- je\u017Celi
-          nie jest widoczny przeci\u0105gnij go w hierarchii do obiektu Canvas\n\nVisibilityTestPrefab
-          jest elementem UI, dlatego nie jest widoczny poza nim"
+        m_Untranslated: Put your tutorial instructions here
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -122,9 +100,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Editor.IsUiElementVisibleCriterion, Assembly-CSharp-Editor,
+            m_TypeName: Unity.Tutorials.Core.Editor.ActiveToolCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -5589488423474559806}
+          Criterion: {fileID: 4271018434029035154}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -199,3 +177,23 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &4271018434029035154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09cf94368c18acd4b87b173cdb62b502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
+  m_TargetTool: 5

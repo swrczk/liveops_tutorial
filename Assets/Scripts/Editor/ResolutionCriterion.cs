@@ -13,7 +13,7 @@ namespace Editor
         private int width = 1080;
 
         [SerializeField]
-        private int height = 1920 ; 
+        private int height = 1920;
 
         public void OnEnable()
         {
@@ -39,7 +39,7 @@ namespace Editor
         private bool IsAspectRatioApplied()
         {
             return Screen.width == width && Screen.height == height;
-        } 
+        }
     }
 #endif
 }

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
-  m_Name: 1.3.tutorial
+  m_Name: 1.x.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
     m_Untranslated: Interfejs
@@ -39,9 +39,9 @@ MonoBehaviour:
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: 216206b65ae858a4c81d4ca437cf16cf, type: 2}
-    - {fileID: 11400000, guid: 3f84db95fc641734c89f35f4df8b3b4d, type: 2}
-    - {fileID: 11400000, guid: 28d7b1f780c7dfe44a516a9720683172, type: 2}
-    - {fileID: 11400000, guid: 72803ac987fed2c42b366db1518cca7a, type: 2}
+    - {fileID: 11400000, guid: bd55d95528abbac4985dbec21c08c033, type: 2}
+    - {fileID: 11400000, guid: 6b6c472416833144dbddeab9404674c9, type: 2}
+    - {fileID: 11400000, guid: f2d830cdf56ede445b3b89af759f8ded, type: 2}
   CompletionDialog: {fileID: 0}
   Modified:
     m_PersistentCalls:

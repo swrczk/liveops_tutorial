@@ -32,7 +32,7 @@ namespace Editor
             Debug.Log("UiElementVisibleCriterionTarget found in the scene");
 
             var uiElement = target.GetComponent<RectTransform>();
-            Canvas canvas = uiElement.GetComponentInParent<Canvas>();
+            var canvas = uiElement.GetComponentInParent<Canvas>();
             if (canvas != null && canvas.renderMode == RenderMode.ScreenSpaceOverlay)
             {
                 return uiElement.gameObject.activeInHierarchy;
