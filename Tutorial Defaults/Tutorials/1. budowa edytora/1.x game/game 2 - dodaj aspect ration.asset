@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5589488423474559806
+--- !u!114 &-7949069785991059910
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52fe644da35d4cedaff880a7e3409922, type: 3}
+  m_Script: {fileID: 11500000, guid: 6152f98af7fd4193aa50c9b37c03e642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -18,8 +18,9 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 0
-  prefabToCheck: {fileID: 853716555238977769, guid: 1ee9f17164b4afa42b2cf34a9b49f104, type: 3}
+  isTesting: 1
+  aspectWidth: 9
+  aspectHeight: 16
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,10 +31,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: scena 2 - drag prefab test
+  m_Name: game 2 - dodaj aspect ration
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Scena tools
+    m_Untranslated: "Dodaj w\u0142asne proporcje okna"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -83,6 +84,41 @@ MonoBehaviour:
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 5
+            m_SelectorMatchType: 0
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
+            m_VisualElementClassName: unity-imgui-container
+            m_VisualElementName: Dockarea7
+            m_VisualElementTypeName: UnityEngine.UIElements.IMGUIContainer
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -92,8 +128,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: 
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -110,9 +145,9 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "przenie\u015B TestPrefab na scene"
+        m_Untranslated: Dodaj nowe Aspect Ratio
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: '- dodaj aspect ratio 9:16'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -120,9 +155,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Editor.IsUiElementVisibleCriterion, Assembly-CSharp-Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -5589488423474559806}
+            m_TypeName: Editor.AspectRatioCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: -7949069785991059910}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

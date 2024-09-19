@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7415261262283468110
+--- !u!114 &-146237251566750899
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c8df444ec1542baacfa5e0dc685b6ec, type: 3}
+  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -18,8 +18,11 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  isTesting: 1
-  layoutFileName: Assets/Layouts/tutorialLayoutTest.wlt
+  isTesting: 0
+  m_EditorWindowType:
+    m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_CloseIfAlreadyOpen: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,9 +125,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Editor.LayoutCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -7415261262283468110}
+            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: -146237251566750899}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

@@ -16,6 +16,11 @@ namespace Editor
             EditorApplication.projectChanged += OnProjectChanged;
         }
         
+        private void OnDisable()
+        {
+            EditorApplication.projectChanged -= OnProjectChanged;
+        }
+        
         protected override bool EvaluateCompletion()
         {
             Debug.Log("EvaluateCompletion called for FileInProjectCriterion");
