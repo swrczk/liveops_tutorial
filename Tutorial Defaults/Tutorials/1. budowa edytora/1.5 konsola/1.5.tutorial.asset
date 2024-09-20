@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.5.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Interfejs
+    m_Untranslated: Console
   m_ProgressTrackingEnabled: 1
   m_LessonId: a0a0fdfe-fd53-47db-ad67-7336af88fdbe
   m_Version: 1
@@ -38,9 +38,9 @@ MonoBehaviour:
   m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
-    - {fileID: 11400000, guid: d0a4f55c32ab2364aaf060af34d01da9, type: 2}
-    - {fileID: 11400000, guid: 4e6bd1a06f71e03449d8e613a013eb31, type: 2}
-    - {fileID: 11400000, guid: d632be35795b19843984d5b405017e12, type: 2}
+    - {fileID: 11400000, guid: addfda1f8bdf1c24a8224f0eccfffbf2, type: 2}
+    - {fileID: 11400000, guid: 95940fd2dc753d54a9ae8b4a83d15c1c, type: 2}
+    - {fileID: 11400000, guid: 21692cb969453c945842eabe8be3a39d, type: 2}
     - {fileID: 11400000, guid: 83733cb3696631646ad4749ff78e9f50, type: 2}
   CompletionDialog: {fileID: 0}
   Modified:

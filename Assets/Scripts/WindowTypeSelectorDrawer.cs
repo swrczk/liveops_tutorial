@@ -1,5 +1,6 @@
 ﻿namespace Editor
 {
+#if UNITY_EDITOR
     using System;
     using System.Linq;
     using UnityEditor;
@@ -16,10 +17,8 @@
             var windowTypeNameProperty = property.FindPropertyRelative("windowTypeName");
 
             // Pobierz wszystkie typy dziedziczące po EditorWindow
-            var editorWindowTypes = AppDomain.CurrentDomain.GetAssemblies()
-                .SelectMany(assembly => assembly.GetTypes())
-                .Where(type => typeof(EditorWindow).IsAssignableFrom(type) && !type.IsAbstract)
-                .ToArray();
+            var editorWindowTypes = AppDomain.CurrentDomain.GetAssemblies().SelectMany(assembly => assembly.GetTypes())
+                .Where(type => typeof(EditorWindow).IsAssignableFrom(type) && !type.IsAbstract).ToArray();
 
             // Pobierz pełne nazwy typów okien do wyświetlenia w liście wyboru
             var typeNames = editorWindowTypes.Select(t => t.FullName).ToArray();
@@ -37,5 +36,5 @@
             EditorGUI.EndProperty();
         }
     }
-
+#endif
 }

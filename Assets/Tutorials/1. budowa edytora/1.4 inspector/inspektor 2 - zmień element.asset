@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: "inspektor 2 - zmie\u0144 element"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspektor - wlaczanie prefabu
+    m_Untranslated: "Inspektor - zmie\u0144 element"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -107,8 +107,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: zmien image dla TestPRefab
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

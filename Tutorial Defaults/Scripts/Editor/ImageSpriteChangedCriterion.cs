@@ -9,10 +9,10 @@ namespace Editor
     public class ImageSpriteChangedCriterion : Criterion
     {
         [SerializeField]
-        private FutureObjectReference futureObjectReference; // Referencja do obiektu śledzonego (Future Object)
+        private FutureObjectReference futureObjectReference;
 
-        private Sprite initialSprite;
-        private GameObject target;
+        private string _initialSpriteName;
+        private GameObject _target;
 
         public void OnDisable()
         {
@@ -21,57 +21,33 @@ namespace Editor
 
         private void OnEnable()
         {
-            EditorApplication.update += UpdateCompletion;  
-        }
-        public override void StartTesting()
-        {
-            base.StartTesting();
-             target = futureObjectReference.SceneObjectReference.ReferencedObject.GameObject(); 
-            
+            EditorApplication.update += UpdateCompletion;
         }
 
 
         protected override bool EvaluateCompletion()
         {
-            // Sprawdź, czy obiekt referencji istnieje i ma komponent Image
-            if (futureObjectReference != null)
+            if (futureObjectReference.SceneObjectReference.ReferencedObject == null)
+                return false;
+            
+            if (_target != null)
             {
-                if (target != null)
-                {
-                    Image imageComponent = futureObjectReference.SceneObjectReference.ReferencedObjectAsGameObject.gameObject
-                        ?.GetComponent<Image>();
-                    Debug.Log("ImageSpriteChangedCriterion: EvaluateCompletion called");
-                    if (imageComponent != null)
-                    {
-                        // Sprawdź, czy sprite zmienił się względem początkowego
-                        Debug.Log("ImageSpriteChangedCriterion: Image component found");
-                    }
-                    else
-
-                        return imageComponent.sprite != initialSprite;
-                }
-                else
-                {
-                    
-
-                    Debug.Log("ImageSpriteChangedCriterion: Object reference is null");
-                    Image imageComponent = target.GetComponent<Image>();
-                    if (imageComponent != null)
-                    {
-                        // Zapamiętaj początkowy sprite
-                        initialSprite = imageComponent.sprite;
-                    }
-                }
+                var imageComponent = _target.GetComponent<Image>();
+                if (imageComponent != null)
+                    return imageComponent.sprite.name != _initialSpriteName;
             }
             else
-                Debug.Log("ImageSpriteChangedCriterion: Image component not found");
+            {
+                _target = futureObjectReference.SceneObjectReference.ReferencedObject.GameObject();
+                var imageComponent = _target.GetComponent<Image>();
+                _initialSpriteName = imageComponent.sprite.name;
+            }
 
-            return false; // Zwraca false, jeśli nie znaleziono komponentu Image lub sprite się nie zmienił
+            return false;
         }
 
         public override bool AutoComplete()
         {
-            // Możesz dodać opcję automatycznego zmieniania sprite'a, jeśli potrzebne
             return false;
         }
     }

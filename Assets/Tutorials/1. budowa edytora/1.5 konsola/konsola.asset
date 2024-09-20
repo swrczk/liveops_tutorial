@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: inspektor
+  m_Name: konsola
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspektor
+    m_Untranslated: Console
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +35,7 @@ MonoBehaviour:
             m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            m_TypeName: UnityEditor.ConsoleWindow, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
@@ -90,7 +90,19 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2576726018822046303, guid: 13de4e1e2c4b8434199da77a409a706e, type: 3}
+        m_TargetAssemblyTypeName: Editor.FocusOnEditorWindow, Assembly-CSharp
+        m_MethodName: Focus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   Shown:
     m_PersistentCalls:
       m_Calls: []

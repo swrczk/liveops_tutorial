@@ -87,8 +87,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: "wrzu\u0107 InspectorTestPRefab"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
