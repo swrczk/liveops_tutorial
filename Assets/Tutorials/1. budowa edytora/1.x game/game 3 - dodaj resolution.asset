@@ -136,7 +136,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.ResolutionCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 4155606896341480464}
+          Criterion: {fileID: 0}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -211,24 +211,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
---- !u!114 &4155606896341480464
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a793dd60424bcc9037d4fce6c22471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  width: 1080
-  height: 1920

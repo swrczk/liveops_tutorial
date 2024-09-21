@@ -116,7 +116,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.IsUiElementVisibleCriterion, Assembly-CSharp-Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 3596990364095012532}
+          Criterion: {fileID: 0}
         - Type:
             m_TypeName: Unity.Tutorials.Core.Editor.InstantiatePrefabCriterion, Unity.Tutorials.Core.Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -219,23 +219,3 @@ MonoBehaviour:
     m_Items:
     - m_PrefabParent: {fileID: 2331298593637509865, guid: 4ed9e222aa03ada4e920ae171b5439f0, type: 3}
       m_FutureReference: {fileID: -1905698755684255796}
---- !u!114 &3596990364095012532
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52fe644da35d4cedaff880a7e3409922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  prefabToCheck: {fileID: 2331298593637509865, guid: 4ed9e222aa03ada4e920ae171b5439f0, type: 3}

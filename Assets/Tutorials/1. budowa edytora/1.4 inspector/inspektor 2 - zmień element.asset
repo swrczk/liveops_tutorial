@@ -15,26 +15,6 @@ MonoBehaviour:
   m_ReferenceHolder: {fileID: 0}
   m_Criterion: {fileID: 1948564888002256074}
   m_ReferenceName: '2: TestPrefab (GameObject)'
---- !u!114 &-4222811145673695239
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf086f1d4a4949c4adc3220f42efb91b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  futureObjectReference: {fileID: 8451067158255611554}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +120,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.ImageSpriteChangedCriterion, Assembly-CSharp-Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -4222811145673695239}
+          Criterion: {fileID: 0}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

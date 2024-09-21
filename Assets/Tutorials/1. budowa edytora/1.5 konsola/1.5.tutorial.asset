@@ -39,8 +39,12 @@ MonoBehaviour:
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: addfda1f8bdf1c24a8224f0eccfffbf2, type: 2}
+    - {fileID: 11400000, guid: 55cb3458e7fa6144ba52c295e3c3aff9, type: 2}
     - {fileID: 11400000, guid: 95940fd2dc753d54a9ae8b4a83d15c1c, type: 2}
     - {fileID: 11400000, guid: 21692cb969453c945842eabe8be3a39d, type: 2}
+    - {fileID: 11400000, guid: 526324b76a199114bad9fa8e1a564e2b, type: 2}
+    - {fileID: 11400000, guid: 307c6dbbacf97224a9b89a2db17b4f1e, type: 2}
+    - {fileID: 11400000, guid: f219091ce5db0854185faa2a8cbc2d58, type: 2}
     - {fileID: 11400000, guid: 83733cb3696631646ad4749ff78e9f50, type: 2}
   CompletionDialog: {fileID: 0}
   Modified:
@@ -58,7 +62,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tutorial_HungryBat_Gameplay
+          m_StringArgument: StartScene
           m_BoolArgument: 0
         m_CallState: 1
   PageInitiated:
@@ -82,7 +86,19 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: tutorial_HungryBat_Gameplay
+          m_StringArgument: StartScene
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 398884954217824117, guid: d4ffbf233f08e6441809f84666dfcc4b, type: 3}
+        m_TargetAssemblyTypeName: Editor.ExampleConsoleLogs, Assembly-CSharp
+        m_MethodName: StopLoopFunction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
   m_Scene: {fileID: 0}
