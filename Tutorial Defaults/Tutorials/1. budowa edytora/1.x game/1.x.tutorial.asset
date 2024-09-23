@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.x.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Interfejs
+    m_Untranslated: Game Window
   m_ProgressTrackingEnabled: 1
   m_LessonId: 879bcd47-f39d-43d3-9bb7-f92e08129b48
   m_Version: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.6.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: New Tutorial
+    m_Untranslated: Editor Layout
   m_ProgressTrackingEnabled: 1
   m_LessonId: 11f7a847-fa19-441e-a972-6b7473ab29fb
   m_Version: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: scena
+    m_Untranslated: Scene Window
   m_Paragraphs:
     m_Items:
     - m_Type: 6

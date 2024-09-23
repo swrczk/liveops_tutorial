@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: layout 2 - dodaj animator
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Dodawanie kolejnych okienek
+    m_Untranslated: Layout - Dodawanie kolejnych okienek
   m_Paragraphs:
     m_Items:
     - m_Type: 6

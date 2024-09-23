@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Name: project 3 - find prefab test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Project - search with type
+    m_Untranslated: Project Window - search with type
   m_Paragraphs:
     m_Items:
     - m_Type: 6

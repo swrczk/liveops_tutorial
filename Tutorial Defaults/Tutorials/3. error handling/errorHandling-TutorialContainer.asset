@@ -15,13 +15,13 @@ MonoBehaviour:
   Modified:
     m_PersistentCalls:
       m_Calls: []
-  ParentContainer: {fileID: 11400000, guid: 31d9e795075cb4c4e9c1f94af97ddb5a, type: 2}
+  ParentContainer: {fileID: 0}
   OrderInView: 0
   BackgroundImage: {fileID: 0}
   Title:
     m_Untranslated: Error handling
   Subtitle:
-    m_Untranslated: Subtitle
+    m_Untranslated: Soon
   Description:
     m_Untranslated: 
   ProjectLayout: {fileID: 0}

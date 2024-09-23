@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: "inspektor 1 - w\u0142aczanie elementu"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspektor - wlaczanie prefabu
+    m_Untranslated: Inspector - wlaczanie prefabu
   m_Paragraphs:
     m_Items:
     - m_Type: 6

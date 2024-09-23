@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "inspektor 3 - w\u0142\u0105cz 2 inspektory"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspektor
+    m_Untranslated: Inspector
   m_Paragraphs:
     m_Items:
     - m_Type: 6

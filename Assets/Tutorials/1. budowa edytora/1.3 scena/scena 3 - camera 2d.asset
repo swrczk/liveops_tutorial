@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena 3 - camera 2d
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Widok 2D
+    m_Untranslated: Scene Window - Widok 2D
   m_Paragraphs:
     m_Items:
     - m_Type: 6

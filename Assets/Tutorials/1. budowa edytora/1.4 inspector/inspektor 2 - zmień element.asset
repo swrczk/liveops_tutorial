@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: "inspektor 2 - zmie\u0144 element"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Inspektor - zmie\u0144 element"
+    m_Untranslated: "Inspector - zmie\u0144 element"
   m_Paragraphs:
     m_Items:
     - m_Type: 6

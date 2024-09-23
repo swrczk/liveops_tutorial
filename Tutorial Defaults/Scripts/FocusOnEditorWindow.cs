@@ -6,9 +6,16 @@ namespace Editor
     public class FocusOnEditorWindow : MonoBehaviour
     {
 #if UNITY_EDITOR
-        public static void Focus([SerializeField]WindowTypeSelector windowTypeSelector)
+        [SerializeField]
+        public WindowTypeSelector windowTypeSelector;
+        public void Focus()
         {
-            EditorWindow.FocusWindowIfItsOpen(windowTypeSelector.GetSelectedWindowType());
+            FocusWindowIfItsOpen(windowTypeSelector.GetSelectedWindowType());
+        }
+
+        private static void FocusWindowIfItsOpen(System.Type windowType)
+        {
+            EditorWindow.FocusWindowIfItsOpen(windowType);
         }
 #endif
     }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena 4 - move tool
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Przesu\u0144 element - move tool"
+    m_Untranslated: "Scene Window - Przesu\u0144 element - move tool"
   m_Paragraphs:
     m_Items:
     - m_Type: 6

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "inspektor 5 - zmie\u0144 nazwe obiektu"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspektor
+    m_Untranslated: Inspector
   m_Paragraphs:
     m_Items:
     - m_Type: 6

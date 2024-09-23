@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: layout - dodanie okienek
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Gotowe layouty
+    m_Untranslated: Layout - Gotowe layouty
   m_Paragraphs:
     m_Items:
     - m_Type: 6

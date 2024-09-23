@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.2.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Interfejs
+    m_Untranslated: Project Window
   m_ProgressTrackingEnabled: 1
   m_LessonId: 68ec0ae3-50cb-4fe4-850a-0463e0e2f335
   m_Version: 1

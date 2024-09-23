@@ -91,9 +91,9 @@ MonoBehaviour:
   Showing:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6151005108093513513, guid: 13de4e1e2c4b8434199da77a409a706e, type: 3}
+      - m_Target: {fileID: 2576726018822046303, guid: 13de4e1e2c4b8434199da77a409a706e, type: 3}
         m_TargetAssemblyTypeName: Editor.FocusOnEditorWindow, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Focus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

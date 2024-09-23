@@ -1,5 +1,6 @@
 ﻿namespace Editor
 {
+#if UNITY_EDITOR
     using System;
 
     [Serializable]
@@ -17,5 +18,5 @@
             return typeof(UnityEditor.Editor).Assembly.GetType(windowTypeName);
         }
     }
-
+#endif
 }

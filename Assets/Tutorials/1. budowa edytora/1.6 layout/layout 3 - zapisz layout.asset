@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: layout 3 - zapisz layout
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Zapisz w\u0142asny layout"
+    m_Untranslated: "Layout - Zapisz w\u0142asny layout"
   m_Paragraphs:
     m_Items:
     - m_Type: 6

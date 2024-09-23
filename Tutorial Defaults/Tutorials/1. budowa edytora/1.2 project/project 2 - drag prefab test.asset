@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: project 2 - drag prefab test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Project
+    m_Untranslated: Project Window
   m_Paragraphs:
     m_Items:
     - m_Type: 6

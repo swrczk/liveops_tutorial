@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1.3.tutorial
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Interfejs
+    m_Untranslated: Scene Window
   m_ProgressTrackingEnabled: 1
   m_LessonId: caf8331a-1d5b-456a-bf56-09fcd50cbdd7
   m_Version: 1

@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: "layout 4 -za\u0142adowanie layoutu"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Gdzie znale\u017A\u0107 layouty?"
+    m_Untranslated: "Layout - Gdzie znale\u017A\u0107 layouty?"
   m_Paragraphs:
     m_Items:
     - m_Type: 6

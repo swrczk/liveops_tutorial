@@ -1,28 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6233071598025970705
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48039504f66d4388bb2847269f085491, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 1
-  windowTypeSelector:
-    windowTypeName: UnityEditor.InspectorWindow
-  windowCount: 1
-  isAnyLocked: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,7 +13,7 @@ MonoBehaviour:
   m_Name: inspektor 4 - zablokuj inspektor
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspektor
+    m_Untranslated: Inspector
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -124,7 +101,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.WindowCountCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -6233071598025970705}
+          Criterion: {fileID: 0}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
