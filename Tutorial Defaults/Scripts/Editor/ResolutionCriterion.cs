@@ -15,13 +15,15 @@ namespace Editor
         [SerializeField]
         private int height = 1920;
 
-        public void OnEnable()
+        public override void StartTesting()
         {
+            base.StartTesting();
             EditorApplication.update += UpdateCompletion;
         }
 
-        public void OnDisable()
+        public override void StopTesting()
         {
+            base.StopTesting();
             EditorApplication.update -= UpdateCompletion;
         }
 

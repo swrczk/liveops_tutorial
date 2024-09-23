@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena 3 - camera 2d
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Scene Window - Widok 2D
+    m_Untranslated: Scene View - Widok 2D
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -50,7 +50,12 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 
+        m_Untranslated: "Mo\u017Cliwo\u015B\u0107 prze\u0142\u0105czania mi\u0119dzy
+          trybem 2D a 3D pozwala dostosowa\u0107 widok sceny w zale\u017Cno\u015Bci
+          od tego, czy pracujesz nad gr\u0105 2D, czy 3D. Jest to szczeg\xF3lnie
+          przydatne w projektach, gdzie wykorzystujesz r\xF3\u017Cne tryby wizualizacji.\n\n\u015Awiat
+          UI jest niezale\u017Cny od \u015Bwiata gry, dlatego jedt inaczej reprezentowany
+          na scenie"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

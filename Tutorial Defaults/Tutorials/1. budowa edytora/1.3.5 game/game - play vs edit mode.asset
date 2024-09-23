@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: "inspektor 5 - zmie\u0144 nazwe obiektu"
+  m_Name: game - play vs edit mode
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspector
+    m_Untranslated: Game - Edit Mode vs Edit Mode
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -28,38 +28,20 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 0
+        m_MaskingEnabled: 1
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
-            m_TypeName: 
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
+            m_Items:
+            - Type:
+                m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
@@ -70,38 +52,22 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: 
+        m_Untranslated: Page title
       Text:
-        m_Untranslated: ' '
+        m_Untranslated: "\tUnity w swoim defaultowym stanie zawsze jest w <b>Edit
+          Mode</b>. W tym czasie skrypty nie sa uruchamiane, kamera nie dzia\u0142a,
+          i mo\u017Cna edytowa\u0107 elementy do woli.\n\tPo naci\u015Bni\u0119ciu
+          guziku Play przechodzimy w <b>Play Mode</b>. Mo\u017Cemy wtedy zobaczy\u0107
+          gre oczami gracza. W trakcie w\u0142\u0105czonej gry mo\u017Cna takie przeprowadza\u0107
+          zmiany w scenie, jednak cz\u0119\u015B\u0107 z nich mo\u017Ce nie zadzia\u0142a\u0107
+          (np. elementy ze skryptami), a wszystkie zmiany po wy\u0142aczeniu gry
+          zostan\u0105 utracone."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
-    - m_Type: 1
-      Title:
-        m_Untranslated: "w\u0142\u0105cz 2 inspektory"
-      Text:
-        m_Untranslated: Put your tutorial instructions here
-      m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Editor.WindowCountCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 0}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -135,16 +101,16 @@ MonoBehaviour:
   Showing:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
-        m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
-        m_MethodName: FocusOnHierarchyObject
-        m_Mode: 5
+      - m_Target: {fileID: 2576726018822046303, guid: 02ec9d5d6c057274da46a975ca02b7ab, type: 3}
+        m_TargetAssemblyTypeName: Editor.FocusOnEditorWindow, Assembly-CSharp
+        m_MethodName: Focus
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Canvas
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
   Shown:

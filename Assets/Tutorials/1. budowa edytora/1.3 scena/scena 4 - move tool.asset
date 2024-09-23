@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena 4 - move tool
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Scene Window - Przesu\u0144 element - move tool"
+    m_Untranslated: "Scene View - Narz\u0119dzia"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -50,7 +50,14 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 
+        m_Untranslated: "Zapoznajmy si\u0119 z narz\u0119dziami do manipulowania
+          obiektami na scenie:\n\t- Move: Umo\u017Cliwia przesuwanie obiekt\xF3w
+          w scenie za pomoc\u0105 narz\u0119dzia strza\u0142ek.\n\t-Rotate: Pozwala
+          obraca\u0107 obiekty wok\xF3\u0142 osi XYZ.\n\t-Scale: Umo\u017Cliwia zmian\u0119
+          skali obiekt\xF3w w scenie, zar\xF3wno globalnie, jak i wzd\u0142u\u017C
+          poszczeg\xF3lnych osi.\n\t-Rect Tool: U\u017Cywane do precyzyjnego manipulowania
+          obiektami 2D lub UI, przydatne przy umieszczaniu element\xF3w na interfejsie
+          u\u017Cytkownika."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -67,9 +74,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "U\u017Cy\u0107 narz\u0119dzia Move"
+        m_Untranslated: "U\u017Cyj narz\u0119dzia <b>Move</b>"
       Text:
-        m_Untranslated: 
+        m_Untranslated: "W\u0142\u0105cz narz\u0119dzie Move i przetestuj na elemencie
+          UI"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

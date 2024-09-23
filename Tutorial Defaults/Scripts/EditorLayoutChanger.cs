@@ -82,5 +82,43 @@ public class EditorLayoutChanger : MonoBehaviour
             Debug.LogError("Unable to find SceneHierarchyWindow type.");
         }
     }
+
+
+    public static void ClearSearchFieldInProjectWindow()
+    {
+        // Pobranie typu ProjectBrowser
+        var projectBrowserType = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.ProjectBrowser");
+        var projectBrowser = EditorWindow.GetWindow(projectBrowserType);
+
+        if (projectBrowser != null)
+        {
+            // Uzyskanie dostępu do prywatnego pola wyszukiwania "m_SearchFieldText"
+            var searchField =
+                projectBrowserType.GetField("m_SearchFieldText", BindingFlags.Instance | BindingFlags.NonPublic);
+            if (searchField != null)
+            {
+                // Czyszczenie pola wyszukiwania
+                searchField.SetValue(projectBrowser, string.Empty);
+
+                // Odswieżenie okna Project Browser
+                var refreshMethod =
+                    projectBrowserType.GetMethod("FocusSearchField", BindingFlags.Instance | BindingFlags.NonPublic);
+                if (refreshMethod != null)
+                {
+                    refreshMethod.Invoke(projectBrowser, null);
+                }
+
+                Debug.Log("Pole wyszukiwania w Project Window zostało wyczyszczone.");
+            }
+            else
+            {
+                Debug.LogError("Nie udało się uzyskać dostępu do pola wyszukiwania.");
+            }
+        }
+        else
+        {
+            Debug.LogError("Nie udało się znaleźć okna ProjectBrowser.");
+        }
+    }
 }
 #endif

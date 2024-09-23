@@ -5,9 +5,12 @@ using System.Net.Http;
 using System.Reflection;
 using System.Threading;
 using Cysharp.Threading.Tasks;
+using UnityEngine;
+
+#if UNITY_EDITOR
 using UnityEditor.Compilation;
 using UnityEditor.PackageManager;
-using UnityEngine;
+#endif
 
 namespace Editor
 {
@@ -40,8 +43,10 @@ namespace Editor
             Debug.Log($"Info log: {DateTime.Now}");
         }
 
+#if UNITY_EDITOR
         public static void LogMess()
         {
+
             LobMessageByType("Player has connected", LogLevel.Info);
             LobMessageByType("Player disconnected unexpectedly", LogLevel.Warn);
             LobMessageByType("Player tried to use an unavailable feature", LogLevel.Error);
@@ -83,7 +88,6 @@ namespace Editor
                     break;
             }
         }
-
         public void LogCodeErrors()
         {
             ThrowException(() =>
@@ -94,6 +98,41 @@ namespace Editor
             ThrowException(() => throw new SyntaxErrorException());
         }
 
+
+
+        public static void LogRandomAppStatus()
+        {
+            // Generowanie 20 przykładowych logów
+            LobMessageByType("[RetentionCalendar] All days claimed.", GetRandomLogLevel());
+            LobMessageByType("[InAppPurchase] Purchase completed successfully.", GetRandomLogLevel());
+            LobMessageByType("[LoginSystem] User login failed due to incorrect password.", GetRandomLogLevel());
+            LobMessageByType("[PushNotifications] Push notification received.", GetRandomLogLevel());
+            LobMessageByType("[UserSession] Session expired, redirecting to login.", GetRandomLogLevel());
+            LobMessageByType("[Analytics] Event 'level_completed' sent.", GetRandomLogLevel());
+            LobMessageByType("[FriendSystem] Friend request sent to user: JohnDoe.", GetRandomLogLevel());
+            LobMessageByType("[Achievements] New achievement unlocked: 'First Win'.", GetRandomLogLevel());
+            LobMessageByType("[Leaderboard] Failed to update leaderboard data.", GetRandomLogLevel());
+            LobMessageByType("[InAppPurchase] Purchase failed: insufficient funds.", GetRandomLogLevel());
+            LobMessageByType("[LoginSystem] User logged in successfully.", GetRandomLogLevel());
+            LobMessageByType("[RetentionCalendar] Daily reward claimed: 50 coins.", GetRandomLogLevel());
+            LobMessageByType("[PushNotifications] Failed to register device for push notifications.",
+                GetRandomLogLevel());
+            LobMessageByType("[UserSession] Session extended by 30 minutes.", GetRandomLogLevel());
+            LobMessageByType("[Analytics] Error sending event 'user_signup'.", GetRandomLogLevel());
+            LobMessageByType("[FriendSystem] Failed to send friend request due to network error.", GetRandomLogLevel());
+            LobMessageByType("[Achievements] Achievement 'Master Explorer' progress updated.", GetRandomLogLevel());
+            LobMessageByType("[Leaderboard] Leaderboard updated successfully.", GetRandomLogLevel());
+            LobMessageByType("[InAppPurchase] Promo code applied: 20% discount.", GetRandomLogLevel());
+            LobMessageByType("[LoginSystem] Two-factor authentication enabled for user.", GetRandomLogLevel());
+        }
+
+        private static LogLevel GetRandomLogLevel()
+        {
+            var logLevels = Enum.GetValues(typeof(LogLevel));
+            return (LogLevel) logLevels.GetValue(UnityEngine.Random.Range(0, logLevels.Length));
+        }
+
+#endif
         public void ShowAllWarnings()
         {
             // 1. Nieużywana zmienna
@@ -153,7 +192,7 @@ namespace Editor
 
         public static void StopLoopFunction()
         {
-            _cts.Cancel();
+            _cts?.Cancel();
         }
 
         public static void StartLoopFunction()
@@ -167,40 +206,6 @@ namespace Editor
         {
             var info = new SystemException();
             Debug.Log(info);
-        }
-
-
-        public static void LogRandomAppStatus()
-        {
-            // Generowanie 20 przykładowych logów
-            LobMessageByType("[RetentionCalendar] All days claimed.", GetRandomLogLevel());
-            LobMessageByType("[InAppPurchase] Purchase completed successfully.", GetRandomLogLevel());
-            LobMessageByType("[LoginSystem] User login failed due to incorrect password.", GetRandomLogLevel());
-            LobMessageByType("[PushNotifications] Push notification received.", GetRandomLogLevel());
-            LobMessageByType("[UserSession] Session expired, redirecting to login.", GetRandomLogLevel());
-            LobMessageByType("[Analytics] Event 'level_completed' sent.", GetRandomLogLevel());
-            LobMessageByType("[FriendSystem] Friend request sent to user: JohnDoe.", GetRandomLogLevel());
-            LobMessageByType("[Achievements] New achievement unlocked: 'First Win'.", GetRandomLogLevel());
-            LobMessageByType("[Leaderboard] Failed to update leaderboard data.", GetRandomLogLevel());
-            LobMessageByType("[InAppPurchase] Purchase failed: insufficient funds.", GetRandomLogLevel());
-            LobMessageByType("[LoginSystem] User logged in successfully.", GetRandomLogLevel());
-            LobMessageByType("[RetentionCalendar] Daily reward claimed: 50 coins.", GetRandomLogLevel());
-            LobMessageByType("[PushNotifications] Failed to register device for push notifications.",
-                GetRandomLogLevel());
-            LobMessageByType("[UserSession] Session extended by 30 minutes.", GetRandomLogLevel());
-            LobMessageByType("[Analytics] Error sending event 'user_signup'.", GetRandomLogLevel());
-            LobMessageByType("[FriendSystem] Failed to send friend request due to network error.", GetRandomLogLevel());
-            LobMessageByType("[Achievements] Achievement 'Master Explorer' progress updated.", GetRandomLogLevel());
-            LobMessageByType("[Leaderboard] Leaderboard updated successfully.", GetRandomLogLevel());
-            LobMessageByType("[InAppPurchase] Promo code applied: 20% discount.", GetRandomLogLevel());
-            LobMessageByType("[LoginSystem] Two-factor authentication enabled for user.", GetRandomLogLevel());
-        }
-
-        private static LogLevel GetRandomLogLevel()
-        {
-            // Losowanie poziomu logu
-            Array logLevels = Enum.GetValues(typeof(LogLevel));
-            return (LogLevel) logLevels.GetValue(UnityEngine.Random.Range(0, logLevels.Length));
         }
     }
 }

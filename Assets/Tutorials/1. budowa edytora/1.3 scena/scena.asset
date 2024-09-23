@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Scene Window
+    m_Untranslated: Scene View
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -51,7 +51,19 @@ MonoBehaviour:
       Title:
         m_Untranslated: Page title
       Text:
-        m_Untranslated: "-\u015Bwiat ui vs \u015Bwiat gry\n"
+        m_Untranslated: "<b>Scene View</b>  to obszar roboczy, w kt\xF3rym mo\u017Cna
+          manipulowa\u0107 obiektami, zmienia\u0107 ich po\u0142o\u017Cenie, rotacj\u0119,
+          skal\u0119, a tak\u017Ce zarz\u0105dza\u0107 \u015Bwiat\u0142em, kamerami
+          i elementami UI.\n\n<b>G\u0142\xF3wne zastosowania Scene View to:</b>\n\n\t-
+          Tworzenie i edytowanie scen w czasie rzeczywistym.\n\t- Podgl\u0105d i
+          manipulowanie obiektami z r\xF3\u017Cnych perspektyw (np. z g\xF3ry, z
+          przodu, z boku).\n\t- Prze\u0142\u0105czanie si\u0119 mi\u0119dzy trybem
+          2D i 3D w zale\u017Cno\u015Bci od projektu.\n\t- U\u017Cywanie narz\u0119dzi
+          edycji, takich jak Move, Rotate,\n \t- Scale, oraz korzystanie z przyci\u0105gania
+          do siatki (snapping).\n\n\tDzi\u0119ki Scene View mo\u017Cesz bezpo\u015Brednio
+          pracowa\u0107 nad uk\u0142adem poziom\xF3w, pozycjonowaniem obiekt\xF3w,
+          a tak\u017Ce precyzyjnie ustawia\u0107 kamery i \u015Bwiat\u0142a, zanim
+          zobaczysz finalny efekt w Game View."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

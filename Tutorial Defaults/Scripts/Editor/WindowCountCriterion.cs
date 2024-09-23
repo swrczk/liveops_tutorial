@@ -16,13 +16,16 @@ namespace Editor
         [SerializeField]
         private bool isAnyLocked;
 
-        public void OnEnable()
+
+        public override void StartTesting()
         {
+            base.StartTesting();
             EditorApplication.update += UpdateCompletion;
         }
 
-        public void OnDisable()
+        public override void StopTesting()
         {
+            base.StopTesting();
             EditorApplication.update -= UpdateCompletion;
         }
 

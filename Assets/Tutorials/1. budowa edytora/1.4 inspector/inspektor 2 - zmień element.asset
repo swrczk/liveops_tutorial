@@ -15,6 +15,26 @@ MonoBehaviour:
   m_ReferenceHolder: {fileID: 0}
   m_Criterion: {fileID: 1948564888002256074}
   m_ReferenceName: '2: TestPrefab (GameObject)'
+--- !u!114 &-1448316623252310306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf086f1d4a4949c4adc3220f42efb91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
+  futureObjectReference: {fileID: 8451067158255611554}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28,7 +48,7 @@ MonoBehaviour:
   m_Name: "inspektor 2 - zmie\u0144 element"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Inspector - zmie\u0144 element"
+    m_Untranslated: "Inspector Window - zmie\u0144 element"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -87,7 +107,8 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: zmien image dla TestPRefab
+        m_Untranslated: "maj\u0105c wybrany konkretny element w inspektorze, mo\u017Cna
+          edytowa\u0107 jego warto\u015Bci"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -104,9 +125,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "dodaj element na scenew\u0142\u0105cz element"
+        m_Untranslated: "zmien image wy\u015Bwietlany przez TestPrefab"
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: "- dodaj TestPrefab na scene\n- wybierz go 2x klikni\u0119ciem\n-
+          znajd\u017A komponent Image i zmie\u0144 w nim obrazek na dowolny inny"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -120,7 +142,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.ImageSpriteChangedCriterion, Assembly-CSharp-Editor,
               Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 0}
+          Criterion: {fileID: -1448316623252310306}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

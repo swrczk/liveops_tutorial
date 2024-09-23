@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: inspektor 4 - zablokuj inspektor
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspector
+    m_Untranslated: Inspector Window - zablokuj widok na jednym elemencie
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -72,7 +72,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: ' '
+        m_Untranslated: "Je\u017Celi chcemy mie\u0107 do podgl\u0105du jeden i ten
+          sam element, mo\u017Cemy zablokowa\u0107 inspektor (jak w sumie ka\u017Cde
+          okno0"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -89,9 +91,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: zablokuj inspektor
+        m_Untranslated: Zablokuj inspektor
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: "- wybierz obiekt, kt\xF3ry chcesz zablokowa\u0107\n- naci\u015Bnij
+          ikonke k\u0142\xF3dki w prawym g\xF3rnym rogu"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -101,7 +104,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.WindowCountCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 0}
+          Criterion: {fileID: 472768625484142426}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -176,3 +179,26 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &472768625484142426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48039504f66d4388bb2847269f085491, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
+  windowTypeSelector:
+    windowTypeName: UnityEditor.InspectorWindow
+  windowCount: 1
+  isAnyLocked: 1

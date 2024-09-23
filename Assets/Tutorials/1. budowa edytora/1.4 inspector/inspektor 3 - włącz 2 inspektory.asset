@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-433493680280818316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48039504f66d4388bb2847269f085491, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
+  windowTypeSelector:
+    windowTypeName: UnityEditor.InspectorWindow
+  windowCount: 2
+  isAnyLocked: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,7 +36,7 @@ MonoBehaviour:
   m_Name: "inspektor 3 - w\u0142\u0105cz 2 inspektory"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspector
+    m_Untranslated: Inspector Window - wiele okien
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -22,7 +45,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 239895228f52a5d4daa32878d951fb15, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -72,7 +95,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: ' '
+        m_Untranslated: "Czasami chcemy por\xF3wna\u0107 dwa elementy jednocze\u015Bnie.
+          Dzi\u0119ki elastyczno\u015Bci edytora Unity mo\u017Cemy w\u0142\u0105czy\u0107
+          dowoln\u0105 ilo\u015B\u0107 okienek"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -89,9 +114,11 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "w\u0142\u0105cz 2 inspektory"
+        m_Untranslated: "W\u0142\u0105cz 2 inspektory"
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: "- na g\xF3rze edytora wybierz Windpw > Panel> Inspector\n-
+          przesu\u0144 go w wygodne miejsce\n\nMo\u017Cesz skorzysta\u0107 te\u017C
+          z 3 kropek widocznych przy okienku"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -101,7 +128,7 @@ MonoBehaviour:
         - Type:
             m_TypeName: Editor.WindowCountCriterion, Assembly-CSharp-Editor, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 0}
+          Criterion: {fileID: -433493680280818316}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: game
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Game Window
+    m_Untranslated: Game View
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -28,17 +28,20 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 0
+        m_MaskingEnabled: 1
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
-            m_Items: []
+            m_Items:
+            - Type:
+                m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
@@ -90,7 +93,19 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2576726018822046303, guid: 02ec9d5d6c057274da46a975ca02b7ab, type: 3}
+        m_TargetAssemblyTypeName: Editor.FocusOnEditorWindow, Assembly-CSharp
+        m_MethodName: Focus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   Shown:
     m_PersistentCalls:
       m_Calls: []

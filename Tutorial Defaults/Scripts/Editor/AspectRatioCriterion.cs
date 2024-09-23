@@ -19,8 +19,7 @@ namespace Editor
             base.StartTesting();
             EditorApplication.update += UpdateCompletion;
         }
-
-        // Odrejestrowanie eventu po zakończeniu testowania
+        
         public override void StopTesting()
         {
             base.StopTesting();

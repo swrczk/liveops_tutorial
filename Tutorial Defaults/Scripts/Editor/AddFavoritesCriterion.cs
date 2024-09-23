@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Reflection;
 using Unity.Tutorials.Core.Editor;
 using UnityEditor;
 
@@ -6,16 +6,15 @@ namespace Editor
 {
     public class AddFavoritesCriterion : Criterion
     {
-        private List<string> _initialFavorites;
- 
+        private string _searchText = string.Empty;
+
 
         public override void StartTesting()
         {
             base.StartTesting();
-            _initialFavorites = GetFavorites();
             EditorApplication.update += UpdateCompletion;
         }
-        // Odrejestrowanie eventu po zakończeniu testowania
+
         public override void StopTesting()
         {
             base.StopTesting();
@@ -24,33 +23,27 @@ namespace Editor
 
         protected override bool EvaluateCompletion()
         {
-            var currentFavorites = GetFavorites();
-            return HasNewFavorite(currentFavorites);
+            _searchText = GetSearchText();
+            ;
+            return !string.IsNullOrEmpty(_searchText);
         }
 
-        private bool HasNewFavorite(List<string> currentFavorites)
+        private string GetSearchText()
         {
-            foreach (var favorite in currentFavorites)
+            var projectBrowserType = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.ProjectBrowser");
+            var projectBrowser = EditorWindow.GetWindow(projectBrowserType);
+
+            if (projectBrowser != null)
             {
-                if (!_initialFavorites.Contains(favorite))
+                var searchField = projectBrowserType.GetField("m_SearchFieldText",
+                    BindingFlags.Instance | BindingFlags.NonPublic);
+                if (searchField != null)
                 {
-                    return true;
+                    return (string) searchField.GetValue(projectBrowser);
                 }
             }
 
-            return false;
-        }
-
-        private List<string> GetFavorites()
-        {
-            var favoritePaths = new List<string>();
-            var guids = AssetDatabase.FindAssets("l:favorite");
-            foreach (var guid in guids)
-            {
-                favoritePaths.Add(AssetDatabase.GUIDToAssetPath(guid));
-            }
-
-            return favoritePaths;
+            return string.Empty;
         }
 
         public override bool AutoComplete()

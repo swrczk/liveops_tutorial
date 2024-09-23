@@ -62,18 +62,6 @@ MonoBehaviour:
           m_StringArgument: tutorial_HungryBat_Gameplay
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 6151005108093513513, guid: ed4fc31a76f80184f947e4c1c36a4ee1, type: 3}
-        m_TargetAssemblyTypeName: Editor.FocusOnEditorWindow, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   PageInitiated:
     m_PersistentCalls:
       m_Calls: []

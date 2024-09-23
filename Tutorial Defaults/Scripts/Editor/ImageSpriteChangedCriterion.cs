@@ -14,14 +14,17 @@ namespace Editor
         private string _initialSpriteName;
         private GameObject _target;
 
-        public void OnDisable()
+
+        public override void StartTesting()
         {
-            EditorApplication.update -= UpdateCompletion;
+            base.StartTesting();
+            EditorApplication.update += UpdateCompletion;
         }
 
-        private void OnEnable()
+        public override void StopTesting()
         {
-            EditorApplication.update += UpdateCompletion;
+            base.StopTesting();
+            EditorApplication.update -= UpdateCompletion;
         }
 
 

@@ -11,27 +11,25 @@ namespace Editor
         [SerializeField]
         private string filePath;
 
-        private void OnEnable()
+
+        public override void StartTesting()
         {
-            EditorApplication.projectChanged += OnProjectChanged;
+            base.StartTesting();
+            UpdateCompletion();
+            EditorApplication.update += UpdateCompletion;
         }
         
-        private void OnDisable()
+        public override void StopTesting()
         {
-            EditorApplication.projectChanged -= OnProjectChanged;
+            base.StopTesting();
+            EditorApplication.update -= UpdateCompletion;
         }
         
         protected override bool EvaluateCompletion()
         {
             Debug.Log("EvaluateCompletion called for FileInProjectCriterion");
             return IsFileInProject(filePath);
-        }
-
-        public override void StartTesting()
-        {
-            base.StartTesting();
-            UpdateCompletion();
-        }
+        } 
 
         public override bool AutoComplete()
         {

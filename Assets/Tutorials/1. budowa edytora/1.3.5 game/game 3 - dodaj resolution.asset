@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: game 3 - dodaj resolution
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Game - Dodaj w\u0142asn\u0105 rozdzielczo\u015B\u0107 ekranu"
+    m_Untranslated: "Game View - Dodaj w\u0142asn\u0105 rozdzielczo\u015B\u0107 ekranu"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -22,30 +22,19 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
+      m_Image: {fileID: 2800000, guid: 9a4e9999e358bf14abeb39b632bb2636, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 0
+        m_MaskingEnabled: 1
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor.CoreModule,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
@@ -56,48 +45,13 @@ MonoBehaviour:
           m_ViewType:
             m_TypeName: 
           m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            m_TypeName: UnityEditor.PopupWindow, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
-        - m_SelectorType: 1
-          m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-              Culture=neutral, PublicKeyToken=null
-          m_AlternateEditorWindowTypes:
-            m_Items: []
-          m_MaskType: 0
-          m_MaskSizeModifier: 0
-          m_UnmaskedControls:
-          - m_SelectorMode: 5
-            m_SelectorMatchType: 0
-            m_GUIContent:
-              m_Text: 
-              m_Image: {fileID: 0}
-              m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: 
-            m_TargetType:
-              m_TypeName: 
-            m_GUIStyleName: 
-            m_ObjectReference:
-              m_SceneObjectReference:
-                m_SceneGuid: 
-                m_GameObjectGuid: 
-                m_SerializedComponentType:
-                  m_TypeName: 
-                m_ComponentIndex: 0
-                m_AssetObject: {fileID: 0}
-                m_Prefab: {fileID: 0}
-              m_FutureObjectReference: {fileID: 0}
-            m_VisualElementClassName: unity-imgui-container
-            m_VisualElementName: Dockarea7
-            m_VisualElementTypeName: UnityEngine.UIElements.IMGUIContainer
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -126,7 +80,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: Dodaj nowe resolution
       Text:
-        m_Untranslated: '- doda nowe resolution 1080 px by 1920 px'
+        m_Untranslated: '- doda nowe resolution 1080 px x 1920 px'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -169,19 +123,7 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3586490542937003765, guid: 3a7b87ae2baa4d34b8a9afad8ffd2395, type: 3}
-        m_TargetAssemblyTypeName: EditorLayoutChanger, Assembly-CSharp
-        m_MethodName: FocusOnHierarchyObject
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Canvas
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   Shown:
     m_PersistentCalls:
       m_Calls: []

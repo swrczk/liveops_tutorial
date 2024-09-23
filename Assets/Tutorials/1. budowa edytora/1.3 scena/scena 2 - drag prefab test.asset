@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: scena 2 - drag prefab test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Scene Window - Tools
+    m_Untranslated: Scene View - Drag and Drop
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -72,8 +72,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: 
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

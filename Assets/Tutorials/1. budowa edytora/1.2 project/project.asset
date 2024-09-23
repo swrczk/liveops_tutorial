@@ -38,7 +38,10 @@ MonoBehaviour:
             m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
-            m_Items: []
+            m_Items:
+            - Type:
+                m_TypeName: UnityEditor.ConsoleWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
@@ -94,7 +97,19 @@ MonoBehaviour:
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2576726018822046303, guid: ed4fc31a76f80184f947e4c1c36a4ee1, type: 3}
+        m_TargetAssemblyTypeName: Editor.FocusOnEditorWindow, Assembly-CSharp
+        m_MethodName: Focus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
   Shown:
     m_PersistentCalls:
       m_Calls: []

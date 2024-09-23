@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 15-LastPage
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Podsumowanie
+    m_Untranslated: Scena - Podsumowanie
   m_Paragraphs:
     m_Items:
     - m_Type: 6

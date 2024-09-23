@@ -11,13 +11,15 @@ namespace Editor
         [SerializeField]
         private bool shouldBe2D;
 
-        public void OnEnable()
+        public override void StartTesting()
         {
+            base.StartTesting();
             EditorApplication.update += UpdateCompletion;
         }
-
-        public void OnDisable()
+        
+        public override void StopTesting()
         {
+            base.StopTesting();
             EditorApplication.update -= UpdateCompletion;
         }
 

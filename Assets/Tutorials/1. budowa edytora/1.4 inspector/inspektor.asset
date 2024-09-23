@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: inspektor
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Inspector
+    m_Untranslated: Inspector Window
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -51,7 +51,12 @@ MonoBehaviour:
       Title:
         m_Untranslated: Page title
       Text:
-        m_Untranslated: intro
+        m_Untranslated: "Narz\u0119dzie edytora, kt\xF3re umo\u017Cliwia podgl\u0105d
+          i edytowanie w\u0142a\u015Bciwo\u015Bci wybranych obiekt\xF3w w scenie
+          lub projekt\xF3w. Gdy zaznaczysz obiekt w Hierarchy lub Project Window,
+          jego w\u0142a\u015Bciwo\u015Bci, takie jak pozycja, rotacja, skala, oraz
+          przypisane komponenty (np. skrypty, kolizje, materia\u0142y), pojawi\u0105
+          si\u0119 w Inspectorze."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
