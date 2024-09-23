@@ -170,18 +170,6 @@ MonoBehaviour:
       m_Calls: []
   m_OnBeforeTutorialQuit:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 398884954217824117, guid: d4ffbf233f08e6441809f84666dfcc4b, type: 3}
-        m_TargetAssemblyTypeName: Editor.ExampleConsoleLogs, Assembly-CSharp
-        m_MethodName: StopLoopFunction
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done

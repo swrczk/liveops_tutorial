@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Name: project 3 - find prefab test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Project Window - search with type
+    m_Untranslated: Project Window - Filtruj wyniki wg typu pliku
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -98,8 +98,10 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: "Funkcjonalno\u015B\u0107 \"Search by Type\" w Project umo\u017Cliwia
+          filtrowanie zasob\xF3w wed\u0142ug ich typu, co jest niezwykle przydatne
+          w zarz\u0105dzaniu du\u017Cymi projektami zawieraj\u0105cymi setki plik\xF3w
+          r\xF3\u017Cnego rodzaju."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -116,8 +118,8 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "znajd\u017A prefab, kt\xF3ry ma najwi\u0119ks\u0105 liczbe
-          liter i wrzu\u0107 go do hierarchi"
+        m_Untranslated: "Dodaj go do hierarchii prefab, kt\xF3ry <b>ma najwi\u0119ks\u0105
+          liczbe liter</b>"
       Text:
         m_Untranslated: "1. skorzystaj z przycisku<b> Search by Type</b>:\n\t- drugi
           przycisk po prawej od pola wyszukiwania (k\xF3\u0142ko na tr\xF3jk\u0105cie
@@ -125,7 +127,9 @@ MonoBehaviour:
           znajd\u017A prefab z najwi\u0119ksza liczb\u0105 liter:\n\t- mo\u017Cesz
           u\u0142atwi\u0107 sobie robote <b>zmieniaj\u0105c skale</b> suwakiem w
           prawym dolnym rogu. Gdy b\u0119dzie maksymalnie przesuni\u0119ty na lewo
-          zobaczysz tylko nazwy plik\xF3w\n\n4. przeci\u0105gnij prefab do hierarchi "
+          zobaczysz tylko nazwy plik\xF3w\n\t- po kliknieciu na prefab za pomoc\u0105
+          klawisza <b>F</b> mo\u017Cemy przej\u015B\u0107 do lokalizacji pliku\n\n4.
+          przeci\u0105gnij prefab do hierarchii "
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

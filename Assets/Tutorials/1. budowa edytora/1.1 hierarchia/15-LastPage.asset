@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 15-LastPage
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Podsumowanie
+    m_Untranslated: Hierarchy - Podsumowanie
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -39,13 +39,17 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "- Hierachy jest to komponent edytora, w kt\xF3rym znajduje
-          si\u0119 spis element\xF3w na scenie\n- elementy s\u0105 u\u0142o\u017Cone
-          wed\u0142ug schematu rodzic-dziecko\n- elementy w hierarchi mo\u017Cna
-          ukry\u0107\n- 2x klikniecie na element w hierarchi wy\u015Brodkowuje go
-          na scenie\n- w hierarchi mo\u017Cna skorzysta\u0107 z wyszukiwarki, aby
-          u\u0142atwi\u0107 sobie prace\n\n\n<b>Pami\u0119taj, aby nie zapisywa\u0107
-          zmian na scenie!</b>"
+        m_Untranslated: "<b>Najwa\u017Cniejsze informacje:</b>\n\t- \"Hierachy\"
+          jest to komponent edytora, w kt\xF3rym znajduje si\u0119 spis element\xF3w
+          na scenie\n\t- pozwala na \u0142atwe grupowanie obiekt\xF3w w strukturze
+          drzewiastej\n\t- dzieci s\u0105 zale\u017Cne od rodzica, je\u015Bli przesuwamy
+          rodzic, to razem ze swoimi dzie\u0107mi\n\t- w hierarchi mo\u017Cna sprawdzi\u0107,
+          co jest prefabem (zaznaczone na niebiesko), a co lokalnym obiektem sceny\n\t-
+          za pomoc\u0105 drag and drop mo\u017Cna dodawa\u0107 elementy na scene\n\t-
+          elementy w hierarchi mo\u017Cna ukry\u0107\n\t- 2x klikniecie na element
+          w hierarchi wy\u015Brodkowuje go na scenie\n\t- w hierarchi mo\u017Cna
+          skorzysta\u0107 z wyszukiwarki, aby u\u0142atwi\u0107 sobie prace\n\n\n<b>Pami\u0119taj,
+          aby nie zapisywa\u0107 zmian na scenie!</b>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -83,7 +87,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Tutorial 1.2: Project'
+        m_Untranslated: 'Dalej: Project Window'
       m_Tutorial: {fileID: 11400000, guid: 5bfcd653d13a4bf43ad26ac25e40616d, type: 2}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

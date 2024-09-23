@@ -77,7 +77,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: NEXT TUTORIAL
+        m_Untranslated: 'Dalej: Console'
       m_Tutorial: {fileID: 11400000, guid: e357bf12bc7d2f14dade91ff0077e87c, type: 2}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 15-LastPage
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Podsumowanie
+    m_Untranslated: Project - Podsumowanie
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -39,7 +39,16 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "- \n<b>Pami\u0119taj, aby nie zapisywa\u0107 zmian na scenie!</b>"
+        m_Untranslated: "\t- Project Window pozwala na przegl\u0105d wszystkich plik\xF3w
+          w projekcie oraz zarz\u0105dzanie nimi\n\t- bezpo\u015Brednio z niego mo\u017Cna
+          dodawa\u0107 prefaby na scene z apomoc\u0105 funkcji Drag and Drop\n\t-
+          korzystaj\u0105c z wyszukiwarki mo\u017Cna wyszukiwac po nazwie lub typie
+          pliku (guzik ko\u0142o na tr\xF3jk\u0105cie na kwadracie)\n\t- cz\u0119sto
+          wyszukiwane zapytania mo\u017Cna doda\u0107 do ulubionych\n\t- za pomoca
+          suwaka w dolnym prawym rogu mo\u017Cna zmniejszy\u0107 elementy do 0, aby
+          zobaczy\u0107 tylko nazwy plik\xF3w, lub w g\xF3re, aby podejrze\u0107
+          ich wygl\u0105d (np. grafik)\n\n\n<b>Pami\u0119taj, aby nie zapisywa\u0107
+          zmian na scenie!</b>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -77,7 +86,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: NEXT TUTORIAL
+        m_Untranslated: 'Dalej: Scena'
       m_Tutorial: {fileID: 11400000, guid: ed537882853245e4696255919ba149b4, type: 2}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

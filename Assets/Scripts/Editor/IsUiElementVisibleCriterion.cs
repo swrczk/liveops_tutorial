@@ -10,13 +10,16 @@ namespace Editor
         private GameObject prefabToCheck;
 
 
-        private void OnEnable()
+
+        public override void StartTesting()
         {
+            base.StartTesting();
             EditorApplication.update += UpdateCompletion;
         }
-
-        private void OnDisable()
+        
+        public override void StopTesting()
         {
+            base.StopTesting();
             EditorApplication.update -= UpdateCompletion;
         }
 

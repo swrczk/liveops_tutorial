@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6505795121260902034}
   - component: {fileID: 2576726018822046303}
   m_Layer: 0
-  m_Name: FocusOnWindow
+  m_Name: FocusOnProject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,4 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   windowTypeSelector:
-    windowTypeName: UnityEditor.ConsoleWindow
+    windowTypeName: UnityEditor.ProjectBrowser

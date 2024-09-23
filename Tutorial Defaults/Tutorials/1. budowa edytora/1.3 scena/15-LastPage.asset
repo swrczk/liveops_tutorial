@@ -77,8 +77,8 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Tutorial 1.4: Inspector'
-      m_Tutorial: {fileID: 11400000, guid: e722f9be5f6937540b4d1361d9edbe54, type: 2}
+        m_Untranslated: 'Dalej: Game'
+      m_Tutorial: {fileID: 11400000, guid: 0bf6a1ae2a3fecc43891911b26ebf160, type: 2}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0

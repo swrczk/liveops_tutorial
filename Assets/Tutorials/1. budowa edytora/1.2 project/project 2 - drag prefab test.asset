@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: project 2 - drag prefab test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Project Window
+    m_Untranslated: Project Window - Drag and Drop
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -133,8 +133,10 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "mo\u017Cesz bezpo\u015Brednio korzysta\u0107 z prefab\xF3w
-          na scenie"
+        m_Untranslated: "Przeci\u0105ganie zasob\xF3w z <b>Project Window</b> do
+          <b>Hierarchy Window</b> lub bezpo\u015Brednio na scen\u0119 jest bardzo
+          szybkim sposobem na dodawanie asset\xF3w do sceny. Mo\u017Cna to zrobi\u0107
+          z prefabami, materia\u0142ami, skryptami itp."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -151,9 +153,12 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: "przenie\u015B TestPrefab do hierarchi - canvas"
+        m_Untranslated: Dodaj element do hierarchii
       Text:
-        m_Untranslated: Put your tutorial instructions here
+        m_Untranslated: "1. w Folderze \"Prefabs\" znajd\u017A \"TestPrefab\"\n2.
+          przeci\u0105gnij go do hierarchi do elementu \"Canvas\"\n\nPrzeci\u0105gnienie
+          go w odpowiednie miejsce ma kluczowe znaczenie. TestPrefab jest elementem
+          UI, wi\u0119c b\u0119dzie on widoczny tylko w miejscu, gdzie mamy Canvas"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

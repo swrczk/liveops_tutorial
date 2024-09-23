@@ -51,7 +51,11 @@ MonoBehaviour:
       Title:
         m_Untranslated: Page title
       Text:
-        m_Untranslated: totutaj znajdziesz wszystkie pliki
+        m_Untranslated: "\tPodobnie jak w systemach operacyjnych, Project Window
+          pokazuje zasoby w postaci hierarchii folder\xF3w, co umo\u017Cliwia organizowanie
+          asset\xF3w, takich jak modele, tekstury, d\u017Awi\u0119ki, skrypty, prefabrykaty,
+          animacje itp. Mo\u017Cesz \u0142atwo tworzy\u0107 nowe foldery i przesuwa\u0107
+          pliki, aby utrzyma\u0107 porz\u0105dek w projekcie."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

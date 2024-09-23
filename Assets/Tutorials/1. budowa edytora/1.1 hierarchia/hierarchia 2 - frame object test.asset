@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: hierarchia 2 - frame object test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Focus na elemencie
+    m_Untranslated: Hierarchy - Focus na elemencie
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -85,7 +85,8 @@ MonoBehaviour:
         m_Untranslated: Wybierz element z hierarchi
       Text:
         m_Untranslated: "- Znajd\u017A w hierarchi <b>SceneSwitcher</b> \n- kliknij
-          na niego 2 razy"
+          na niego 2 razy\n\nSztuczka dzia\u0142a w obie strony, klikaj\u0105c dwukrotnie
+          na element na scenie mo\u017Cemy znale\u017A\u0107 go w hierarchi."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -585,6 +585,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2449233907931076764, guid: 37d258b99772bb044a213e9c3baac2b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 2449233907931076764, guid: 37d258b99772bb044a213e9c3baac2b5, type: 3}
       propertyPath: m_Name
       value: SceneSwitcher
       objectReference: {fileID: 0}

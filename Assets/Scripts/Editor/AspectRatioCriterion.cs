@@ -12,17 +12,20 @@ namespace Editor
         private int aspectWidth = 9;
 
         [SerializeField]
-        private int aspectHeight = 16; 
+        private int aspectHeight = 16;
 
-        public void OnEnable()
+        public override void StartTesting()
         {
+            base.StartTesting();
             EditorApplication.update += UpdateCompletion;
         }
-
-        public void OnDisable()
+        
+        public override void StopTesting()
         {
+            base.StopTesting();
             EditorApplication.update -= UpdateCompletion;
         }
+
 
         public override bool AutoComplete()
         {
@@ -40,7 +43,7 @@ namespace Editor
             var aspectRatio = (float) Screen.width / Screen.height;
             var expectedAspectRatio = (float) aspectWidth / aspectHeight;
             return Math.Abs(aspectRatio - expectedAspectRatio) < 0.01f;
-        } 
+        }
     }
 #endif
 }

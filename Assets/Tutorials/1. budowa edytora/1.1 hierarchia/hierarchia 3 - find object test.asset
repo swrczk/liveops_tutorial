@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: hierarchia 3 - find object test
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Wyszukiwarka
+    m_Untranslated: "Hierarchy - Wyszukiwarka obiekt\xF3w"
   m_Paragraphs:
     m_Items:
     - m_Type: 6

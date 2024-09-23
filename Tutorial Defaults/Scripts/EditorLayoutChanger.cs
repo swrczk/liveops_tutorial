@@ -73,7 +73,7 @@ public class EditorLayoutChanger : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogError("Unable to find SetSearch method.");
+                    Debug.LogWarning("Unable to find SetSearch method.");
                 }
             }
         }
