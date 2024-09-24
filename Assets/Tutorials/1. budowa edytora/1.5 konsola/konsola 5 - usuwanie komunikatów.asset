@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "konsola 5 - usuwanie komunikat\xF3w"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Console - Czyszczenie log\xF3w"
+    m_Untranslated: "Console Window- Czyszczenie log\xF3w"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -72,8 +72,11 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "za pomoc\u0105 tych 3 guzik\xF3w mo\u017Cna przefiltrowa\u0107
-          konretny typ loga"
+        m_Untranslated: "Mo\u017Cemy kontrolowa\u0107, ile logi maj\u0105 zosta\u0107
+          w konsoli. Za pomoc\u0105 menu pod clear mo\u017Cemy wybra\u0107 kiedy
+          automatycznie si\u0119 wyczyszcz\u0105. Je\u015Bli jednak chcemy zawsze
+          historyczne, to mo\u017Cna odznaczy\u0107 wszystkie.\nMo\u017Cna czysci\u0107
+          konsole na \u017Cyczenie za pomoca samego przycisku \"Clear\""
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

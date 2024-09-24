@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "konsola 6 - grupowanie komunikat\xF3w"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Console - Laczenie log\xF3w"
+    m_Untranslated: "Console Window- Grupowanie log\xF3w (\"Collapse\")"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -22,7 +22,7 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 117ac1b25de510544962b1695b28fd10, type: 3}
+      m_Image: {fileID: 2800000, guid: acf30dee454af6b41831318f0f278b6b, type: 3}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
@@ -72,8 +72,11 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "za pomoc\u0105 tych 3 guzik\xF3w mo\u017Cna przefiltrowa\u0107
-          konretny typ loga"
+        m_Untranslated: "W Console Window mo\u017Cesz filtrowa\u0107 i wy\u015Bwietla\u0107
+          logi okre\u015Blonego typu, co pomaga w skupieniu si\u0119 na konkretnych
+          komunikatach (logach, ostrze\u017Ceniach lub b\u0142\u0119dach) podczas
+          debugowania aplikacji.\nW tym celu skorzystaj z tych 3 guzik\xF3w w g\xF3rnej
+          cz\u0119\u015Bci konsoli."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: konsola
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Console
+    m_Untranslated: Console Window
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -51,7 +51,15 @@ MonoBehaviour:
       Title:
         m_Untranslated: Page title
       Text:
-        m_Untranslated: Put your tutorial narrative description here
+        m_Untranslated: "Kluczowe narz\u0119dzie do debugowania i \u015Bledzenia
+          dzia\u0142ania aplikacji. Umo\u017Cliwia wy\u015Bwietlanie komunikat\xF3w
+          takich jak b\u0142\u0119dy, ostrze\u017Cenia, oraz logi, co u\u0142atwia
+          identyfikowanie problem\xF3w w projekcie.\nCz\u0119\u015B\u0107 z komunikat\xF3w
+          zostaje wywo\u0142anych przez silnik Unity, cz\u0119\u015B\u0107 z nich
+          jest zostawionych przez deweloper\xF3w, aby m\xF3c sprawdzi\u0107 stan
+          aplikacji, a cz\u0119\u015B\u0107 z nich informuje, \u017Ce gra si\u0119
+          wywali\u0142a. Najwa\u017Cniejsze jest rozpoznawa\u0107 kt\xF3re jest kt\xF3re
+          po s\u0142owach kluczowych."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

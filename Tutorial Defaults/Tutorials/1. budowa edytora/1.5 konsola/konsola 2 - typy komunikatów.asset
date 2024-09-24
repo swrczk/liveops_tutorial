@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "konsola 2 - typy komunikat\xF3w"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Console - Typy komunikat\xF3w"
+    m_Untranslated: "Console Window - Typy log\xF3w"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -72,11 +72,14 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Info
-
-          Warn
-
-          Error'
+        m_Untranslated: "\t- <b>Info</b> - \"bia\u0142e\" logi w konsoli, najcz\u0119\u015Bciej
+          informuja o obecnych akcjach w grze (zapytania do serwera, otwarcie okna,
+          sukces akcji, itd.)\n\t- <b>Warn</b> - \"\u017C\xF3\u0142te\" logi. Informuj\u0105
+          o jaki\u015B b\u0142\u0119dnym ustawieniu \u015Brodowiska lub u\u017Cycia
+          silnika, kt\xF3re nie powoduj\u0105 b\u0142\u0119d\xF3w krytycznych, ale
+          mog\u0105 zosta\u0107 ulepszone. Najcz\u0119\u015Bciej mo\u017Cna zignorowa\u0107.\n\t-
+          <b>Error</b> - \"czerwone\" logi, postrach wszystkich. Gra nie jest w stanie
+          funkcjonowa\u0107 z nimi."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

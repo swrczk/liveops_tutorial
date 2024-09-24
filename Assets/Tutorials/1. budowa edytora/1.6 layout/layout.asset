@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: layout
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Editor Layout
+    m_Untranslated: Layout
   m_Paragraphs:
     m_Items:
     - m_Type: 6

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: layout - dodanie okienek
+  m_Name: layout 2 - dodaj window
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Layout - Gotowe layouty
+    m_Untranslated: Layout - Dodawanie kolejnych okienek edytora
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +35,8 @@ MonoBehaviour:
             m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_EditorWindowType:
-            m_TypeName: 
+            m_TypeName: UnityEditor.AboutWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
@@ -47,7 +48,7 @@ MonoBehaviour:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
-            m_ControlName: Layout
+            m_ControlName: 
             m_PropertyPath: 
             m_TargetType:
               m_TypeName: 
@@ -74,16 +75,39 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Przy edycji widoku layoutu nie trzeba si\u0119 martwi\u0107
-          o zepsucie go lub strate ulubionego uk\u0142adu okna.\nInterface zawsze
-          mo\u017Cna zresetowac do jednego z podstawowych uk\u0142ad\xF3w, lub stworzy\u0107
-          w\u0142asny!"
+        m_Untranslated: "Je\u017Celi do pracy potrzebujesz konkretnych okien niedost\u0119pnych
+          w aktualnym uk\u0142adzie, mo\u017Cna je \u0142\u0105two doda\u0107 z g\xF3rnego
+          menu edytora, zak\u0142adki Window. Spr\xF3bujmy doda\u0107 Package Manager,
+          okno, kt\xF3re informuje o zainstalownaych pluginach i ich wersjach."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+      m_Summary: 
+      m_Description: 
+      m_InstructionBoxTitle: 
+      m_InstructionText: 
+      m_TutorialButtonText: 
+    - m_Type: 1
+      Title:
+        m_Untranslated: Dodaj okno Package Managera
+      Text:
+        m_Untranslated: '- znajdziesz go w Tabs > Window > Package Manager'
+      m_Tutorial: {fileID: 0}
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - Type:
+            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 2462020897066038223}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -146,3 +170,26 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: Next
   m_DoneButton: Done
+--- !u!114 &2462020897066038223
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Completed:
+    m_PersistentCalls:
+      m_Calls: []
+  Invalidated:
+    m_PersistentCalls:
+      m_Calls: []
+  isTesting: 0
+  m_EditorWindowType:
+    m_TypeName: UnityEditor.PackageManager.UI.PackageManagerWindow, UnityEditor.CoreModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_CloseIfAlreadyOpen: 1

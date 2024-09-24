@@ -1,28 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-146237251566750899
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_EditorWindowType:
-    m_TypeName: UnityEditor.ProjectBrowser, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CloseIfAlreadyOpen: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,7 +28,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_MaskingEnabled: 1
+        m_MaskingEnabled: 0
         m_UnmaskedViews:
         - m_SelectorType: 0
           m_ViewType:
@@ -98,7 +75,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Widget znajduje si\u0119 w g\xF3rnym prawym rogu edytora."
+        m_Untranslated: "Jak u\u017Cy\u0107 zapisanego layoutu? "
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -117,17 +94,14 @@ MonoBehaviour:
       Title:
         m_Untranslated: "Zmie\u0144 layout na tutorialLayoutTest"
       Text:
-        m_Untranslated: Tabs > Window > Animation > Animation
+        m_Untranslated: "- otw\xF3rz menu w prawym g\xF3rnym rogu Layout\n- \"Load
+          Layout from file...\"\n- wybierz z folderu \"Assets/Layouts\" plik tutorialLayoutTest"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: -146237251566750899}
+        m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -175,32 +149,7 @@ MonoBehaviour:
         m_CallState: 1
   Shown:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8344798935283973408, guid: f1f7fef7a3553784880e2ca155ba2658, type: 3}
-        m_TargetAssemblyTypeName: TutorialStateManager, Assembly-CSharp
-        m_MethodName: SetTutorial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 73e999a3fadaec1428197a279ac16221, type: 2}
-          m_ObjectArgumentAssemblyTypeName: Unity.Tutorials.Core.Editor.Tutorial,
-            Unity.Tutorials.Core.Editor
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 8344798935283973408, guid: f1f7fef7a3553784880e2ca155ba2658, type: 3}
-        m_TargetAssemblyTypeName: TutorialStateManager, Assembly-CSharp
-        m_MethodName: SaveTutorialState
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   Staying:
     m_PersistentCalls:
       m_Calls: []

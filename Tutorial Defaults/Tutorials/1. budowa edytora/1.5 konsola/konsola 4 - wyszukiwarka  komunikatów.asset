@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "konsola 4 - wyszukiwarka  komunikat\xF3w"
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Console - Przeszukiwanie log\xF3w"
+    m_Untranslated: "Console Window- Przeszukiwanie log\xF3w"
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -72,8 +72,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "za pomoc\u0105 tych 3 guzik\xF3w mo\u017Cna przefiltrowa\u0107
-          konretny typ loga"
+        m_Untranslated: "Wyszukiwarka pomga znale\u017A\u0107 konkretne logi, lub
+          te wed\u0142ug s\u0142\xF3w kluczowych. Dzi\u0119ki temu mo\u017Cemy skupi\u0107
+          si\u0119 na konkretnym featherze."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

@@ -17,24 +17,16 @@ MonoBehaviour:
       m_Calls: []
   m_Image: {fileID: 0}
   m_WindowTitle:
-    m_Untranslated: Window Title
+    m_Untranslated: Welcome Page
   m_Title:
-    m_Untranslated: This Is the Title
+    m_Untranslated: Witaj w samouczku Unity!
   m_Description:
-    m_Untranslated: '<b>Bold text here</b>
-
-      <i>Italic text here</i>
-
-      <a
-      href="http://yourlink.com">Link text here</a>
-
-      <br/> Force a linebreak
-      (not necessary, you can use return)
-
-      <wordwrap>Forced word wrap</wordwrap>
-      Force word-based wrapping with CJK.
-
-'
+    m_Untranslated: " \nW tym samouczku wprowadzimy Ci\u0119 do najwa\u017Cniejszych
+      komponent\xF3w edytora Unity, kt\xF3re b\u0119d\u0105 nieodzowne podczas tworzenia
+      Twojej gry. Poka\u017Cemy, jak dzia\u0142aj\u0105 te elementy i jak mog\u0105
+      usprawni\u0107 Twoj\u0105 prac\u0119.\n\n\n<i>W przypadku problem\xF3w technicznych
+      w g\xF3rnym menu \"Tutorials\" mo\u017Cna znale\u017A\u0107 podstawow\u0105
+      pomoc, tj.: zresetowanie tutorialu, zrestartowanie Unity...</i>"
   m_Buttons:
   - Text:
       m_Untranslated: Start tutorial

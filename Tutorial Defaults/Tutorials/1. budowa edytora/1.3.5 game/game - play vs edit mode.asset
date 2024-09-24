@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: game - play vs edit mode
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Game - Edit Mode vs Edit Mode
+    m_Untranslated: Game - Edit Mode vs Play Mode
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -45,6 +45,45 @@ MonoBehaviour:
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
+        - m_SelectorType: 0
+          m_ViewType:
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.GameView, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items:
+            - Type:
+                m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+                  Culture=neutral, PublicKeyToken=null
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 5
+            m_SelectorMatchType: 0
+            m_GUIContent:
+              m_Text: 
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+            m_ObjectReference:
+              m_SceneObjectReference:
+                m_SceneGuid: 
+                m_GameObjectGuid: 
+                m_SerializedComponentType:
+                  m_TypeName: 
+                m_ComponentIndex: 0
+                m_AssetObject: {fileID: 0}
+                m_Prefab: {fileID: 0}
+              m_FutureObjectReference: {fileID: 0}
+            m_VisualElementClassName: unity-editor-toolbar__button-strip-element--left
+            m_VisualElementName: Play
+            m_VisualElementTypeName: UnityEditor.Toolbars.EditorToolbarToggle
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -61,7 +100,9 @@ MonoBehaviour:
           gre oczami gracza. W trakcie w\u0142\u0105czonej gry mo\u017Cna takie przeprowadza\u0107
           zmiany w scenie, jednak cz\u0119\u015B\u0107 z nich mo\u017Ce nie zadzia\u0142a\u0107
           (np. elementy ze skryptami), a wszystkie zmiany po wy\u0142aczeniu gry
-          zostan\u0105 utracone."
+          zostan\u0105 utracone.\n\n\tPodsumowuj\u0105c, Edit Mode s\u0142u\u017Cy
+          do tworzenia i edytowania, a Play Mode do testowania i symulowania rzeczywistej
+          rozgrywki."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}

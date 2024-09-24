@@ -39,8 +39,6 @@ MonoBehaviour:
   m_Pages:
     m_Items:
     - {fileID: 11400000, guid: addfda1f8bdf1c24a8224f0eccfffbf2, type: 2}
-    - {fileID: 11400000, guid: 55cb3458e7fa6144ba52c295e3c3aff9, type: 2}
-    - {fileID: 11400000, guid: 95940fd2dc753d54a9ae8b4a83d15c1c, type: 2}
     - {fileID: 11400000, guid: 21692cb969453c945842eabe8be3a39d, type: 2}
     - {fileID: 11400000, guid: 526324b76a199114bad9fa8e1a564e2b, type: 2}
     - {fileID: 11400000, guid: f219091ce5db0854185faa2a8cbc2d58, type: 2}

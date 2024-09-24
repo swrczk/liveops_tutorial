@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: konsola 3 - filtrowanie przez typ
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: "Console - Filtrowanie typ\xF3w komunikat\xF3w"
+    m_Untranslated: "Console Window - Filtrowanie typ\xF3w komunikat\xF3w"
   m_Paragraphs:
     m_Items:
     - m_Type: 6

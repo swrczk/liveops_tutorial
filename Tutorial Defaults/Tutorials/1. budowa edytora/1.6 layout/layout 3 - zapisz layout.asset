@@ -75,7 +75,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Widget znajduje si\u0119 w g\xF3rnym prawym rogu edytora."
+        m_Untranslated: 
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -92,9 +92,11 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: zapisz layout, nazwij go test.wlt
+        m_Untranslated: "Zapisz w\u0142asny layout, nazwij go test.wlt"
       Text:
-        m_Untranslated: ...
+        m_Untranslated: "- otw\xF3rz menu w prawym g\xF3rnym rogu Layout\n- \"Save
+          Layout to file...\"\n- zapisz go w folderze \"Assets/Layouts\" pod nazw\u0105
+          test.wlt"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
