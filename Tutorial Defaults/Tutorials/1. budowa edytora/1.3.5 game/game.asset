@@ -54,7 +54,14 @@ MonoBehaviour:
       Title:
         m_Untranslated: Page title
       Text:
-        m_Untranslated: Put your tutorial narrative description here
+        m_Untranslated: "Okno edytora, kt\xF3re umo\u017Cliwia podgl\u0105d tego,
+          jak gra b\u0119dzie wygl\u0105da\u0142a i dzia\u0142a\u0142a podczas rzeczywistego
+          uruchomienia. W tym widoku mo\u017Cna testowa\u0107 gr\u0119, interakcje
+          z u\u017Cytkownikiem, logik\u0119 skrypt\xF3w oraz zachowanie r\xF3\u017Cnych
+          element\xF3w, takich jak d\u017Awi\u0119ki, animacje i fizyka. \n\nGame
+          View pozwala tak\u017Ce na <b>symulacj\u0119 r\xF3\u017Cnych rozdzielczo\u015Bci
+          ekranu i proporcji obrazu,</b> co jest szczeg\xF3lnie przydatne przy tworzeniu
+          aplikacji na r\xF3\u017Cne urz\u0105dzenia. "
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
