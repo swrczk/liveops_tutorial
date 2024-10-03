@@ -80,15 +80,11 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: Dodaj wysuzkiwanie do ulubionych
+        m_Untranslated: Dodaj wyszukiwanie do ulubionych
       Text:
-        m_Untranslated: "1. skorzystaj z przycisku<b> Search by Type</b>:\n\t- drugi
-          przycisk po prawej od pola wyszukiwania (k\xF3\u0142ko na tr\xF3jk\u0105cie
-          na kwadracie) \n\n2. wybierz typ, po kt\xF3rym ma wyszukac (<b>\"Prefab\"</b>)\n\n3.
-          znajd\u017A prefab z najwi\u0119ksza liczb\u0105 liter:\n\t- mo\u017Cesz
-          u\u0142atwi\u0107 sobie robote <b>zmieniaj\u0105c skale</b> suwakiem w
-          prawym dolnym rogu. Gdy b\u0119dzie maksymalnie przesuni\u0119ty na lewo
-          zobaczysz tylko nazwy plik\xF3w\n\n4. przeci\u0105gnij prefab do hierarchi "
+        m_Untranslated: "1. skorzystaj z wyszukiwarki\n\n2. naci\u015Bnij \"gwiazdk\u0119\"
+          z prawej strony. Wyszukiwanie powinno pojawi\u0107 si\u0119 z lewej strony
+          okna nad struktur\u0105 projektu"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
